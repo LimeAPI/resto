@@ -66,7 +66,7 @@ describe('Resto MCP Server', () => {
       
       expect(skillsModule.allSkills).toBeDefined();
       expect(Array.isArray(skillsModule.allSkills)).toBe(true);
-      expect(skillsModule.allSkills.length).toBe(14);
+      expect(skillsModule.allSkills.length).toBe(15);
       
       const skillNames = skillsModule.allSkills.map((s: any) => s.name);
       expect(skillNames).toContain('resto');
@@ -79,6 +79,7 @@ describe('Resto MCP Server', () => {
       expect(skillNames).toContain('resto-stats');
       expect(skillNames).toContain('resto-backend');
       expect(skillNames).toContain('resto-frontend');
+      expect(skillNames).toContain('resto-styling');
       expect(skillNames).toContain('resto-chat');
       expect(skillNames).toContain('resto-plan');
       expect(skillNames).toContain('resto-verify');
@@ -145,7 +146,7 @@ describe('Resto MCP Server', () => {
       // Dynamic import should work
       const skillsModule = await import('../src/skills.js');
       expect(skillsModule.allSkills).toBeDefined();
-      expect(skillsModule.allSkills.length).toBe(14);
+      expect(skillsModule.allSkills.length).toBe(15);
     });
   });
 });
