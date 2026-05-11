@@ -22,7 +22,7 @@
     "ai",
     "skills"
   ],
-  "author": "",
+  "author": "LimeAPI",
   "license": "MIT",
   "dependencies": {
     "@modelcontextprotocol/sdk": "^1.0.4"
@@ -34,7 +34,8 @@
   },
   "files": [
     "dist/**/*",
-    "README.md"
+    "README.md",
+    "LICENSE"
   ],
   "engines": {
     "node": ">=18"
