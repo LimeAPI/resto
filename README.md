@@ -227,6 +227,7 @@ Invoke these to transform AI responses for the rest of your conversation:
 | `/resto-stats` | Analyze token savings | Measuring efficiency |
 | `/resto-backend` | Backend architecture & systems design | System planning |
 | `/resto-frontend` | Elite frontend UI/UX design | Interface design |
+| `/resto-styling` | Advanced visual intelligence. World-class UI artistry | Visual styling |
 | `/resto-chat` | Chat-only mode. NO code generation | Discussions, Q&A |
 | `/resto-plan` | Structured planning. Prevent hallucinations before coding. | Complex task breakdown |
 | `/resto-verify` | Validate code accuracy post-implementation. | Quality assurance |
@@ -246,6 +247,7 @@ Call these with data to get instant resto-formatted output:
 | `resto_stats` | `text`, optional `intensity` | Token savings report | Efficiency metrics |
 | `resto_backend` | `requirements`, optional `stack` | Backend architecture design | System architecture |
 | `resto_frontend` | `product`, optional `style` | Frontend UI/UX design system | UI/UX planning |
+| `resto_styling` | `component`, optional `theme` | Visual styling & color systems | UI styling |
 
 ---
 
@@ -588,7 +590,7 @@ npm run test:run
 **Test Coverage:**
 - ✅ Package configuration validation
 - ✅ Build output verification
-- ✅ Skills module integrity (14 skills)
+- ✅ Skills module integrity (15 skills)
 - ✅ Server startup checks
 - ✅ Input validation for all tools
 - ✅ Error handling edge cases
