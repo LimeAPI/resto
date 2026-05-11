@@ -99,7 +99,7 @@ Transform natural language into professional code:
 
 ```bash
 # Clone the repository
-git clone https://github.com/IrshaGlobal/resto.git
+git clone https://github.com/LimeAPI/resto.git
 cd resto
 
 # Install dependencies
