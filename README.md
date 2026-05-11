@@ -225,10 +225,10 @@ Invoke these to transform AI responses for the rest of your conversation:
 | `/resto-docs` | Write terse documentation | API docs, READMEs |
 | `/resto-debug` | Explain errors: WHAT → WHY → FIX | Troubleshooting |
 | `/resto-stats` | Analyze token savings | Measuring efficiency |
-| `/resto-backend` | Backend architecture & systems design | System planning |
-| `/resto-frontend` | Elite frontend UI/UX design | Interface design |
-| `/resto-styling` | Advanced visual intelligence. World-class UI artistry | Visual styling |
-| `/resto-translate` | Convert vague ideas to technical specs | Technical translation |
+| `/backend` | Backend architecture & systems design | System planning |
+| `/ui` | Elite frontend UI/UX design | Interface design |
+| `/style` | Advanced visual intelligence. World-class UI artistry | Visual styling |
+| `/vibe` | Convert vague ideas to technical specs | Technical translation |
 | `/resto-chat` | Chat-only mode. NO code generation | Discussions, Q&A |
 | `/resto-plan` | Structured planning. Prevent hallucinations before coding. | Complex task breakdown |
 | `/resto-verify` | Validate code accuracy post-implementation. | Quality assurance |
@@ -247,9 +247,9 @@ Call these with data to get instant resto-formatted output:
 | `resto_debug` | `error`, optional `context` | Minimal error analysis | Error explanation |
 | `resto_stats` | `text`, optional `intensity` | Token savings report | Efficiency metrics |
 | `resto_backend` | `requirements`, optional `stack` | Backend architecture design | System architecture |
-| `resto_frontend` | `product`, optional `style` | Frontend UI/UX design system | UI/UX planning |
-| `resto_styling` | `component`, optional `theme` | Visual styling & color systems | UI styling |
-| `resto_translate` | `vague_idea`, optional `context` | Technical translation | Spec generation |
+| `resto_ui` | `product`, optional `style` | Frontend UI/UX design system | UI/UX planning |
+| `resto_style` | `component`, optional `theme` | Visual styling & color systems | UI styling |
+| `resto_vibe` | `vague_idea`, optional `context` | Technical translation | Spec generation |
 
 ---
 
@@ -432,7 +432,7 @@ Token savings measured across different content types:
 ```bash
 /resto ultra                    # Set maximum brevity
 Describe feature requirements   # AI asks clarifying questions
-/resto-backend                  # Architecture design with tradeoffs
+/backend                        # Architecture design with tradeoffs
 Let's code                      # Exit chat, start implementation
 /resto-verify                   # Validate generated code
 git commit                      # /resto-commit for message
@@ -454,7 +454,7 @@ Iterate and learn               # Build confidence progressively
 ```bash
 /resto full                     # Standard team intensity
 Architecture discussion         # /resto-chat for planning
-/resto-backend                  # Shared architectural standards
+/backend                        # Shared architectural standards
 Code review                     # /resto-review for PRs
 Documentation                   # /resto-docs for API specs
 Commit                          # /resto-commit for consistent messages

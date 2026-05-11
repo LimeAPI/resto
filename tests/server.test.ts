@@ -77,10 +77,10 @@ describe('Resto MCP Server', () => {
       expect(skillNames).toContain('resto-docs');
       expect(skillNames).toContain('resto-debug');
       expect(skillNames).toContain('resto-stats');
-      expect(skillNames).toContain('resto-backend');
-      expect(skillNames).toContain('resto-frontend');
-      expect(skillNames).toContain('resto-styling');
-      expect(skillNames).toContain('resto-translate');
+      expect(skillNames).toContain('backend');
+      expect(skillNames).toContain('ui');
+      expect(skillNames).toContain('style');
+      expect(skillNames).toContain('vibe');
       expect(skillNames).toContain('resto-chat');
       expect(skillNames).toContain('resto-plan');
       expect(skillNames).toContain('resto-verify');
