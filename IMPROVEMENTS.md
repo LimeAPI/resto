@@ -182,11 +182,12 @@ Shifted from "token reduction tool" to "comprehensive AI coding partner":
 - **Hallucination Prevention**: Multi-layered validation workflows
 - **Vibe Coder Empowerment**: Natural language to professional code translation
 
-#### New Skills Added (4)
+#### New Skills Added (5)
 1. `resto-plan`: Structured planning to prevent hallucinations before coding
 2. `resto-verify`: Post-implementation validation for accuracy
 3. `resto-learn`: Educational mode for beginners with step-by-step explanations
 4. `resto-styling`: Advanced visual intelligence and world-class UI artistry
+5. `resto-translate`: Elite technical translation from vague ideas to precise specs
 
 #### Enhanced Existing Skills (6)
 - `resto`: Added hallucination prevention rules and beginner support
@@ -217,7 +218,7 @@ All critical issues identified in the initial review have been addressed:
 ✅ **Developer Experience**: Clean gitignore, standardized scripts  
 ✅ **Chat-Only Mode**: Added strict `/resto-chat` skill for discussion without code generation  
 ✅ **Champion AI Coder**: Repositioned with elite quality, cost savings, hallucination prevention, vibe coder support  
-✅ **New Skills**: Planning, verification, learning, and styling modes for comprehensive coverage
+✅ **New Skills**: Planning, verification, learning, styling, and translation modes for comprehensive coverage
 
 The project is now **production-ready** with robust error handling, clear documentation, and automated testing. The code quality is high, and the architecture is solid.
 

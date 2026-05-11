@@ -228,6 +228,7 @@ Invoke these to transform AI responses for the rest of your conversation:
 | `/resto-backend` | Backend architecture & systems design | System planning |
 | `/resto-frontend` | Elite frontend UI/UX design | Interface design |
 | `/resto-styling` | Advanced visual intelligence. World-class UI artistry | Visual styling |
+| `/resto-translate` | Convert vague ideas to technical specs | Technical translation |
 | `/resto-chat` | Chat-only mode. NO code generation | Discussions, Q&A |
 | `/resto-plan` | Structured planning. Prevent hallucinations before coding. | Complex task breakdown |
 | `/resto-verify` | Validate code accuracy post-implementation. | Quality assurance |
@@ -248,6 +249,7 @@ Call these with data to get instant resto-formatted output:
 | `resto_backend` | `requirements`, optional `stack` | Backend architecture design | System architecture |
 | `resto_frontend` | `product`, optional `style` | Frontend UI/UX design system | UI/UX planning |
 | `resto_styling` | `component`, optional `theme` | Visual styling & color systems | UI styling |
+| `resto_translate` | `vague_idea`, optional `context` | Technical translation | Spec generation |
 
 ---
 
@@ -590,7 +592,7 @@ npm run test:run
 **Test Coverage:**
 - ✅ Package configuration validation
 - ✅ Build output verification
-- ✅ Skills module integrity (15 skills)
+- ✅ Skills module integrity (16 skills)
 - ✅ Server startup checks
 - ✅ Input validation for all tools
 - ✅ Error handling edge cases
