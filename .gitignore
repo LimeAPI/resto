@@ -6,4 +6,3 @@ dist/
 *.local
 coverage/
 .nyc_output/
-tests/

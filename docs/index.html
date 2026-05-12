@@ -16,7 +16,7 @@
         }
 
         :root {
-            /* Primary Palette - Sophisticated Indigo-Blue */
+            /* Primary Palette - Sophisticated Indigo for Light Theme */
             --primary-50: #eef2ff;
             --primary-100: #e0e7ff;
             --primary-200: #c7d2fe;
@@ -28,20 +28,20 @@
             --primary-800: #3730a3;
             --primary-900: #312e81;
 
-            /* Neutral Scale - Refined Charcoal */
-            --neutral-50: #fafafa;
-            --neutral-100: #f4f4f5;
-            --neutral-200: #e4e4e7;
-            --neutral-300: #d4d4d8;
-            --neutral-400: #a1a1aa;
-            --neutral-500: #71717a;
-            --neutral-600: #52525b;
-            --neutral-700: #3f3f46;
-            --neutral-800: #27272a;
-            --neutral-900: #18181b;
-            --neutral-950: #09090b;
+            /* Neutral Scale - Clean Slate Grays */
+            --neutral-50: #f8fafc;
+            --neutral-100: #f1f5f9;
+            --neutral-200: #e2e8f0;
+            --neutral-300: #cbd5e1;
+            --neutral-400: #94a3b8;
+            --neutral-500: #64748b;
+            --neutral-600: #475569;
+            --neutral-700: #334155;
+            --neutral-800: #1e293b;
+            --neutral-900: #0f172a;
+            --neutral-950: #020617;
 
-            /* Semantic Colors - Cohesive with Primary */
+            /* Semantic Colors */
             --accent-success: #10b981;
             --accent-success-light: rgba(16, 185, 129, 0.1);
             --accent-warning: #f59e0b;
@@ -49,47 +49,44 @@
             --accent-error: #ef4444;
             --accent-error-light: rgba(239, 68, 68, 0.1);
 
-            /* Background System - Premium Dark with Depth */
-            --bg-primary: #0a0a0b;
-            --bg-secondary: #111113;
-            --bg-tertiary: #18181b;
-            --bg-card: rgba(24, 24, 27, 0.6);
-            --bg-elevated: rgba(39, 39, 42, 0.8);
-            --bg-glass: rgba(255, 255, 255, 0.03);
+            /* Background System - Premium Light with Depth */
+            --bg-primary: #ffffff;
+            --bg-secondary: #f8fafc;
+            --bg-tertiary: #f1f5f9;
+            --bg-card: #ffffff;
+            --bg-elevated: #ffffff;
+            --bg-glass: rgba(255, 255, 255, 0.8);
 
-            /* Specular Highlights - Subtle & Intentional */
-            --specular-light: rgba(255, 255, 255, 0.04);
-            --specular-medium: rgba(255, 255, 255, 0.08);
-            --specular-strong: rgba(255, 255, 255, 0.12);
+            /* Text System - Perfect Contrast for Light Theme */
+            --text-primary: #0f172a;
+            --text-secondary: #475569;
+            --text-tertiary: #64748b;
+            --text-muted: #94a3b8;
 
-            /* Text System - Perfect Contrast */
-            --text-primary: #fafafa;
-            --text-secondary: #e4e4e7;
-            --text-tertiary: #d4d4d8;
-            --text-muted: #a1a1aa;
-
-            /* Border System - Visible but Subtle */
-            --border-subtle: rgba(161, 161, 170, 0.12);
-            --border-default: rgba(161, 161, 170, 0.18);
-            --border-strong: rgba(161, 161, 170, 0.28);
+            /* Border System - Subtle but Visible */
+            --border-subtle: rgba(148, 163, 184, 0.2);
+            --border-default: rgba(148, 163, 184, 0.3);
+            --border-strong: rgba(148, 163, 184, 0.5);
             --border-accent: rgba(99, 102, 241, 0.3);
 
-            /* Gradient System - Single Color, Sophisticated */
+            /* Gradient System - Light Theme Optimized */
             --gradient-primary: linear-gradient(135deg, #6366f1 0%, #4f46e5 100%);
-            --gradient-subtle: linear-gradient(135deg, rgba(99, 102, 241, 0.1) 0%, rgba(79, 70, 229, 0.05) 100%);
-            --gradient-glow: radial-gradient(circle at center, rgba(99, 102, 241, 0.15) 0%, transparent 70%);
-            --gradient-hero: radial-gradient(ellipse at top, rgba(99, 102, 241, 0.15), transparent 60%),
-                             radial-gradient(ellipse at bottom right, rgba(79, 70, 229, 0.1), transparent 50%);
+            --gradient-subtle: linear-gradient(135deg, rgba(99, 102, 241, 0.05) 0%, rgba(79, 70, 229, 0.02) 100%);
+            --gradient-glow: radial-gradient(circle at center, rgba(99, 102, 241, 0.08) 0%, transparent 70%);
+            --gradient-hero: radial-gradient(ellipse at top, rgba(99, 102, 241, 0.08), transparent 60%),
+                             radial-gradient(ellipse at bottom right, rgba(79, 70, 229, 0.05), transparent 50%);
+            --gradient-mesh: radial-gradient(at top left, rgba(99, 102, 241, 0.1) 0%, transparent 50%),
+                             radial-gradient(at bottom right, rgba(129, 140, 248, 0.08) 0%, transparent 50%);
 
-            /* Shadow System - 6 Elevation Levels */
+            /* Shadow System - Light Theme Elevation */
             --shadow-xs: 0 1px 2px rgba(0, 0, 0, 0.04);
             --shadow-sm: 0 2px 4px rgba(0, 0, 0, 0.06);
             --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.08);
-            --shadow-lg: 0 12px 32px rgba(0, 0, 0, 0.12);
-            --shadow-xl: 0 24px 48px rgba(0, 0, 0, 0.16);
-            --shadow-2xl: 0 32px 64px rgba(0, 0, 0, 0.2);
-            --shadow-glow: 0 0 40px rgba(99, 102, 241, 0.25);
-            --shadow-glossy: 0 8px 32px rgba(0, 0, 0, 0.12), inset 0 1px 0 rgba(255, 255, 255, 0.06);
+            --shadow-lg: 0 12px 32px rgba(0, 0, 0, 0.10);
+            --shadow-xl: 0 24px 48px rgba(0, 0, 0, 0.12);
+            --shadow-2xl: 0 32px 64px rgba(0, 0, 0, 0.14);
+            --shadow-glow: 0 0 40px rgba(99, 102, 241, 0.15);
+            --shadow-glossy: 0 8px 32px rgba(0, 0, 0, 0.08), inset 0 1px 0 rgba(255, 255, 255, 0.6);
 
             /* Spacing Scale */
             --space-1: 4px;
@@ -134,7 +131,14 @@
             -moz-osx-font-smoothing: grayscale;
         }
 
-        /* Noise Texture Overlay - Organic Tactile Quality */
+        /* Container Utility */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 var(--space-6);
+        }
+
+        /* Subtle Dot Pattern - Light Theme Texture */
         body::before {
             content: '';
             position: fixed;
@@ -142,29 +146,14 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)' opacity='0.015'/%3E%3C/svg%3E");
+            background-image: radial-gradient(circle, rgba(148, 163, 184, 0.15) 1px, transparent 1px);
+            background-size: 24px 24px;
             pointer-events: none;
-            z-index: 1;
-            opacity: 0.4;
+            z-index: 0;
+            opacity: 0.5;
         }
 
-        /* Fine Grid Overlay - Structural Foundation */
-        body::after {
-            content: '';
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background-image: 
-                linear-gradient(rgba(255, 255, 255, 0.02) 1px, transparent 1px),
-                linear-gradient(90deg, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
-            background-size: 32px 32px;
-            pointer-events: none;
-            z-index: 1;
-        }
-
-        /* Animated Background - Multi-Layer Ambient System */
+        /* Animated Background - Multi-Layer Ambient System for Light Theme */
         .bg-animation {
             position: fixed;
             top: 0;
@@ -172,7 +161,7 @@
             width: 100%;
             height: 100%;
             z-index: 0;
-            background: var(--gradient-hero);
+            background: var(--gradient-mesh);
             animation: ambientShift 40s ease-in-out infinite;
         }
 
@@ -215,24 +204,31 @@
             66% { transform: translate(-20px, 20px) scale(0.95); }
         }
 
-        /* Navigation with Premium Glass Effect */
+        /* Navigation with Premium Glass Effect - Light Theme */
         nav {
             position: fixed;
             top: 0;
             width: 100%;
-            background: rgba(10, 10, 11, 0.85);
-            backdrop-filter: blur(24px) saturate(180%);
-            -webkit-backdrop-filter: blur(24px) saturate(180%);
-            border-bottom: 1px solid var(--border-subtle);
+            background: transparent;
+            backdrop-filter: none;
+            -webkit-backdrop-filter: none;
+            border-bottom: 1px solid transparent;
             z-index: 1000;
-            padding: var(--space-4) 0;
+            padding: 0;
             transition: all var(--transition-glossy);
+            height: 72px;
+            display: flex;
+            align-items: center;
+            box-shadow: none;
         }
 
         nav.scrolled {
-            background: rgba(10, 10, 11, 0.95);
-            box-shadow: var(--shadow-lg);
-            border-bottom-color: var(--border-default);
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(32px) saturate(220%);
+            -webkit-backdrop-filter: blur(32px) saturate(220%);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.06), 0 1px 2px rgba(0, 0, 0, 0.04);
+            border-bottom-color: rgba(0, 0, 0, 0.08);
+            height: 64px;
         }
 
         .nav-container {
@@ -245,32 +241,28 @@
         }
 
         .logo {
-            font-size: 1.5rem;
-            font-weight: 700;
+            font-size: 1.625rem;
+            font-weight: 800;
             background: var(--gradient-primary);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
-            letter-spacing: -0.02em;
+            letter-spacing: -0.03em;
             position: relative;
-            cursor: pointer;
-            transition: all var(--transition-normal);
+            cursor: default;
             display: flex;
             align-items: center;
             gap: var(--space-2);
+            padding: var(--space-2) var(--space-3);
+            border-radius: var(--radius-md);
         }
 
         .logo i {
-            font-size: 1.75rem;
-            -webkit-text-fill-color: initial;
+            font-size: 1.875rem;
             background: var(--gradient-primary);
             -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
             background-clip: text;
-        }
-
-        .logo:hover {
-            transform: scale(1.02);
-            filter: brightness(1.1);
         }
 
         .nav-links {
@@ -286,32 +278,38 @@
             font-size: 0.9375rem;
             transition: all var(--transition-fast);
             position: relative;
-            padding: var(--space-2) 0;
+            padding: var(--space-2) var(--space-3);
+            border-radius: var(--radius-md);
+            letter-spacing: 0.01em;
         }
 
         .nav-links a::before {
             content: '';
             position: absolute;
             bottom: 0;
-            left: 0;
-            width: 0;
+            left: 50%;
+            transform: translateX(-50%) scaleX(0);
+            width: 80%;
             height: 2px;
-            background: var(--gradient-primary);
-            transition: width var(--transition-normal);
+            background: linear-gradient(90deg, transparent, var(--primary-500), transparent);
+            transition: transform var(--transition-normal);
+            border-radius: var(--radius-full);
+            opacity: 0;
         }
 
         .nav-links a:hover {
-            color: var(--text-primary);
+            color: var(--primary-600);
+            background: rgba(99, 102, 241, 0.06);
         }
 
         .nav-links a:focus-visible {
             outline: 2px solid var(--primary-400);
-            outline-offset: 4px;
-            border-radius: var(--radius-sm);
+            outline-offset: 2px;
         }
 
         .nav-links a:hover::before {
-            width: 100%;
+            transform: translateX(-50%) scaleX(1);
+            opacity: 1;
         }
 
         /* Hero Section with Enhanced Visual Hierarchy */
@@ -496,6 +494,355 @@
             max-width: 600px;
             margin-left: auto;
             margin-right: auto;
+        }
+
+        /* Interactive Demo Section */
+        .interactive-demo-section {
+            padding: var(--space-16) var(--space-6);
+            background: var(--bg-secondary);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .interactive-demo-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: var(--gradient-subtle);
+            pointer-events: none;
+        }
+
+        /* Demo Tabs */
+        .demo-tabs {
+            display: flex;
+            justify-content: center;
+            gap: var(--space-3);
+            margin-bottom: var(--space-8);
+            flex-wrap: wrap;
+            position: relative;
+            z-index: 1;
+        }
+
+        .demo-tab {
+            display: inline-flex;
+            align-items: center;
+            gap: var(--space-2);
+            padding: var(--space-3) var(--space-5);
+            background: var(--bg-card);
+            border: 1px solid var(--border-default);
+            border-radius: var(--radius-full);
+            color: var(--text-secondary);
+            font-size: 0.9375rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all var(--transition-fast);
+        }
+
+        .demo-tab i {
+            font-size: 1.125rem;
+        }
+
+        .demo-tab:hover {
+            border-color: var(--primary-400);
+            color: var(--text-primary);
+            background: var(--primary-50);
+            transform: translateY(-2px);
+        }
+
+        .demo-tab.active {
+            background: var(--gradient-primary);
+            color: white;
+            border-color: transparent;
+            box-shadow: var(--shadow-md), var(--shadow-glow);
+        }
+
+        .demo-tab.active:hover {
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-lg), var(--shadow-glow);
+        }
+
+        .demo-container {
+            display: grid;
+            grid-template-columns: 1fr auto 1fr;
+            gap: var(--space-6);
+            max-width: 1400px;
+            margin: 0 auto;
+            align-items: stretch;
+            position: relative;
+            z-index: 1;
+        }
+
+        .demo-panel {
+            background: var(--bg-card);
+            border: 1px solid var(--border-default);
+            border-radius: var(--radius-lg);
+            padding: var(--space-6);
+            box-shadow: var(--shadow-md);
+            transition: all var(--transition-normal);
+            display: flex;
+            flex-direction: column;
+        }
+
+        .demo-panel:hover {
+            box-shadow: var(--shadow-xl);
+            border-color: var(--primary-300);
+            transform: translateY(-2px);
+        }
+
+        .panel-header {
+            display: flex;
+            align-items: center;
+            gap: var(--space-2);
+            margin-bottom: var(--space-4);
+            font-weight: 600;
+            color: var(--text-primary);
+        }
+
+        .panel-header i {
+            font-size: 1.25rem;
+            color: var(--primary-600);
+        }
+
+        .demo-panel label {
+            font-size: 0.9375rem;
+            font-weight: 600;
+        }
+
+        .demo-panel textarea,
+        .demo-panel pre {
+            flex: 1;
+            width: 100%;
+            min-height: 180px;
+            padding: var(--space-4);
+            border: 1px solid var(--border-subtle);
+            border-radius: var(--radius-md);
+            font-family: var(--font-mono);
+            font-size: 0.875rem;
+            line-height: 1.6;
+            resize: vertical;
+            transition: all var(--transition-fast);
+        }
+
+        .demo-panel textarea {
+            background: var(--bg-primary);
+            color: var(--text-primary);
+        }
+
+        .demo-panel textarea:focus {
+            outline: none;
+            border-color: var(--primary-400);
+            box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1);
+        }
+
+        .demo-panel pre {
+            background: var(--bg-secondary);
+            color: var(--text-primary);
+            overflow-y: auto;
+            white-space: pre-wrap;
+            word-wrap: break-word;
+            max-height: 400px;
+            min-height: 180px;
+            line-height: 1.6;
+            transition: opacity 0.3s ease-in;
+        }
+
+        /* Custom scrollbar for output box */
+        .demo-panel pre::-webkit-scrollbar {
+            width: 8px;
+        }
+
+        .demo-panel pre::-webkit-scrollbar-track {
+            background: var(--bg-tertiary);
+            border-radius: var(--radius-sm);
+        }
+
+        .demo-panel pre::-webkit-scrollbar-thumb {
+            background: var(--neutral-300);
+            border-radius: var(--radius-sm);
+        }
+
+        .demo-panel pre::-webkit-scrollbar-thumb:hover {
+            background: var(--neutral-400);
+        }
+
+        .token-counter,
+        .output-tokens {
+            margin-top: var(--space-3);
+            padding: var(--space-2) var(--space-3);
+            background: var(--bg-tertiary);
+            border-radius: var(--radius-sm);
+            display: inline-flex;
+            align-items: center;
+            gap: var(--space-2);
+            font-size: 0.8125rem;
+        }
+
+        .counter-label {
+            color: var(--text-muted);
+            font-weight: 500;
+        }
+
+        .counter-value {
+            color: var(--text-primary);
+            font-weight: 700;
+            font-family: var(--font-mono);
+        }
+
+        .demo-controls {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            gap: var(--space-4);
+            padding: var(--space-4) 0;
+        }
+
+        .intensity-selector {
+            display: flex;
+            flex-direction: column;
+            gap: var(--space-2);
+        }
+
+        .intensity-btn {
+            padding: var(--space-3) var(--space-4);
+            border: 1px solid var(--border-default);
+            background: var(--bg-card);
+            color: var(--text-secondary);
+            border-radius: var(--radius-md);
+            font-size: 0.875rem;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all var(--transition-fast);
+            text-align: left;
+        }
+
+        .intensity-btn:hover {
+            border-color: var(--primary-400);
+            color: var(--text-primary);
+            background: var(--primary-50);
+        }
+
+        .intensity-btn.active {
+            border-color: var(--primary-600);
+            background: var(--primary-50);
+            color: var(--primary-700);
+            font-weight: 600;
+            box-shadow: 0 0 0 2px rgba(99, 102, 241, 0.1);
+        }
+
+        .compress-btn {
+            width: 100%;
+            justify-content: center;
+            padding: var(--space-4);
+            font-size: 1rem;
+        }
+
+        .mode-indicator {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: var(--space-2);
+            padding: var(--space-3) var(--space-4);
+            background: linear-gradient(135deg, rgba(99, 102, 241, 0.1), rgba(79, 70, 229, 0.05));
+            border: 1px solid var(--primary-300);
+            border-radius: var(--radius-md);
+            color: var(--primary-700);
+            font-weight: 600;
+            font-size: 0.9375rem;
+        }
+
+        .mode-indicator i {
+            font-size: 1.125rem;
+            animation: pulse-icon 2s ease-in-out infinite;
+        }
+
+        @keyframes pulse-icon {
+            0%, 100% { opacity: 1; transform: scale(1); }
+            50% { opacity: 0.7; transform: scale(1.1); }
+        }
+
+        .savings-display {
+            margin-top: var(--space-4);
+            display: flex;
+            flex-direction: column;
+            gap: var(--space-2);
+        }
+
+        .savings-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: var(--space-2);
+            padding: var(--space-3) var(--space-4);
+            background: linear-gradient(135deg, rgba(16, 185, 129, 0.1), rgba(16, 185, 129, 0.05));
+            border: 1px solid rgba(16, 185, 129, 0.3);
+            border-radius: var(--radius-md);
+            color: var(--accent-success);
+            font-weight: 600;
+            font-size: 0.9375rem;
+        }
+
+        .savings-badge i {
+            font-size: 1.125rem;
+        }
+
+        .skill-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: var(--space-2);
+            padding: var(--space-3) var(--space-4);
+            background: linear-gradient(135deg, rgba(99, 102, 241, 0.1), rgba(79, 70, 229, 0.05));
+            border: 1px solid rgba(99, 102, 241, 0.3);
+            border-radius: var(--radius-md);
+            color: var(--primary-600);
+            font-weight: 600;
+            font-size: 0.9375rem;
+        }
+
+        .skill-badge i {
+            font-size: 1.125rem;
+            animation: pulse-icon 2s ease-in-out infinite;
+        }
+
+        @media (max-width: 1024px) {
+            .demo-container {
+                grid-template-columns: 1fr;
+            }
+
+            .demo-controls {
+                flex-direction: row;
+                flex-wrap: wrap;
+            }
+
+            .intensity-selector {
+                flex-direction: row;
+                flex-wrap: wrap;
+                flex: 1;
+            }
+
+            .intensity-btn {
+                flex: 1;
+                min-width: 120px;
+                text-align: center;
+            }
+
+            .compress-btn {
+                width: auto;
+            }
+
+            .demo-tabs {
+                gap: var(--space-2);
+            }
+
+            .demo-tab {
+                padding: var(--space-2) var(--space-3);
+                font-size: 0.875rem;
+            }
+
+            .demo-tab i {
+                display: none;
+            }
         }
 
         .features-grid {
@@ -934,40 +1281,56 @@
                 justify-content: center;
             }
 
-            /* Timeline Mobile */
+            /* Timeline Mobile - Single Column Layout */
             .timeline::before {
-                left: 24px;
+                left: 20px !important;
+                transform: translateX(-50%) !important;
+                width: 3px;
+                box-shadow: 0 0 25px rgba(99, 102, 241, 0.6), 0 0 50px rgba(99, 102, 241, 0.3);
             }
 
             .timeline-item,
             .timeline-item:nth-child(odd),
             .timeline-item:nth-child(even) {
-                flex-direction: row;
-                padding-right: 0;
-                padding-left: var(--space-16);
-                margin-bottom: var(--space-8);
+                flex-direction: row !important;
+                padding-right: 0 !important;
+                padding-left: calc(var(--space-12) + 20px) !important;
+                margin-bottom: var(--space-12);
             }
 
             .timeline-dot {
-                left: 24px;
-                width: 18px;
-                height: 18px;
+                left: 20px !important;
+                transform: translateX(-50%) !important;
+                width: 22px;
+                height: 22px;
+                box-shadow: 0 0 0 4px rgba(99, 102, 241, 0.3), var(--shadow-md), 0 0 25px rgba(99, 102, 241, 0.7);
+            }
+
+            .timeline-item:hover .timeline-dot {
+                transform: translateX(-50%) scale(1.15) !important;
+                box-shadow: 0 0 0 6px rgba(99, 102, 241, 0.4), var(--shadow-lg), 0 0 35px rgba(99, 102, 241, 0.9);
             }
 
             .timeline-content {
-                padding: var(--space-5);
+                padding: var(--space-6);
+                width: 100%;
+                max-width: none;
             }
 
             .timeline-step {
-                font-size: 0.6875rem;
+                font-size: 0.75rem;
+                letter-spacing: 0.12em;
+                margin-bottom: var(--space-3);
             }
 
             .timeline-title {
-                font-size: 1.125rem;
+                font-size: 1.25rem;
+                margin-bottom: var(--space-3);
             }
 
             .timeline-desc {
-                font-size: 0.875rem;
+                font-size: 0.9375rem;
+                line-height: 1.7;
             }
 
             /* Comparison Grid Mobile */
@@ -1008,20 +1371,97 @@
                 padding: 0;
             }
 
-            /* Benchmarks Table Mobile */
+            /* Benchmarks Table Mobile - Card-Based Layout */
             .benchmarks-table-wrapper {
-                overflow-x: auto;
-                -webkit-overflow-scrolling: touch;
+                background: transparent;
+                border: none;
+                border-radius: 0;
+                overflow: visible;
             }
 
             .benchmarks-table {
-                min-width: 600px;
+                display: block;
+                width: 100%;
             }
 
-            .benchmarks-table th,
-            .benchmarks-table td {
-                padding: var(--space-3);
-                font-size: 0.875rem;
+            .benchmarks-table thead {
+                display: none; /* Hide header on mobile */
+            }
+
+            .benchmarks-table tbody {
+                display: flex;
+                flex-direction: column;
+                gap: var(--space-4);
+            }
+
+            .benchmarks-table tbody tr {
+                display: block;
+                background: var(--bg-card);
+                border: 1px solid var(--border-default);
+                border-radius: var(--radius-lg);
+                padding: var(--space-5);
+                backdrop-filter: blur(12px);
+                -webkit-backdrop-filter: blur(12px);
+                box-shadow: var(--shadow-sm);
+                transition: all var(--transition-normal);
+            }
+
+            .benchmarks-table tbody tr:hover {
+                border-color: var(--primary-400);
+                box-shadow: var(--shadow-md);
+                transform: translateY(-2px);
+            }
+
+            .benchmarks-table tbody tr td {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                padding: var(--space-3) 0;
+                border-bottom: 1px solid var(--border-subtle);
+                font-size: 0.9375rem;
+            }
+
+            .benchmarks-table tbody tr td:last-child {
+                border-bottom: none;
+                padding-bottom: 0;
+            }
+
+            .benchmarks-table tbody tr td:first-child {
+                font-family: var(--font-sans);
+                font-weight: 600;
+                font-size: 1rem;
+                color: var(--text-primary);
+                padding-top: 0;
+                margin-bottom: var(--space-2);
+                border-bottom: 2px solid var(--border-default);
+                padding-bottom: var(--space-3);
+            }
+
+            .benchmarks-table tbody tr td:not(:first-child) {
+                font-family: var(--font-mono);
+                font-weight: 600;
+                text-align: right;
+            }
+
+            .benchmarks-table tbody tr td::before {
+                content: attr(data-label);
+                font-family: var(--font-sans);
+                font-weight: 500;
+                font-size: 0.8125rem;
+                color: var(--text-muted);
+                text-transform: uppercase;
+                letter-spacing: 0.05em;
+                margin-right: var(--space-4);
+            }
+
+            .benchmarks-table tbody tr td.highlight {
+                background: transparent;
+            }
+
+            .benchmarks-table tbody tr td.highlight .highlight-badge {
+                background: rgba(99, 102, 241, 0.15);
+                padding: 6px 12px;
+                border-radius: var(--radius-sm);
             }
 
             /* IDE Config Mobile */
@@ -1061,21 +1501,34 @@
                 grid-column: span 2;
             }
 
-            /* Timeline Tablet */
+            /* Timeline Tablet - Single Column Layout */
             .timeline::before {
-                left: 32px;
+                left: 28px !important;
+                transform: translateX(-50%) !important;
+                width: 3px;
+                box-shadow: 0 0 22px rgba(99, 102, 241, 0.5), 0 0 45px rgba(99, 102, 241, 0.25);
             }
 
             .timeline-item,
             .timeline-item:nth-child(odd),
             .timeline-item:nth-child(even) {
-                flex-direction: row;
-                padding-right: 0;
-                padding-left: calc(var(--space-12) + 32px);
+                flex-direction: row !important;
+                padding-right: 0 !important;
+                padding-left: calc(var(--space-12) + 28px) !important;
+                margin-bottom: var(--space-10);
             }
 
             .timeline-dot {
-                left: 32px;
+                left: 28px !important;
+                transform: translateX(-50%) !important;
+                width: 20px;
+                height: 20px;
+                box-shadow: 0 0 0 4px rgba(99, 102, 241, 0.25), var(--shadow-md), 0 0 22px rgba(99, 102, 241, 0.6);
+            }
+
+            .timeline-item:hover .timeline-dot {
+                transform: translateX(-50%) scale(1.15) !important;
+                box-shadow: 0 0 0 6px rgba(99, 102, 241, 0.35), var(--shadow-lg), 0 0 32px rgba(99, 102, 241, 0.8);
             }
         }
 
@@ -1196,6 +1649,7 @@
                 var(--primary-400) 90%, 
                 transparent 100%);
             transform: translateX(-50%);
+            box-shadow: 0 0 20px rgba(99, 102, 241, 0.4), 0 0 40px rgba(99, 102, 241, 0.2);
         }
 
         .timeline-item {
@@ -1232,14 +1686,14 @@
             background: var(--gradient-primary);
             border-radius: 50%;
             border: 3px solid var(--bg-primary);
-            box-shadow: 0 0 0 4px rgba(99, 102, 241, 0.25), var(--shadow-md);
+            box-shadow: 0 0 0 4px rgba(99, 102, 241, 0.25), var(--shadow-md), 0 0 20px rgba(99, 102, 241, 0.5);
             z-index: 2;
             transition: all var(--transition-normal);
         }
 
         .timeline-item:hover .timeline-dot {
             transform: translateX(-50%) scale(1.2);
-            box-shadow: 0 0 0 6px rgba(99, 102, 241, 0.3), var(--shadow-lg);
+            box-shadow: 0 0 0 6px rgba(99, 102, 241, 0.3), var(--shadow-lg), 0 0 30px rgba(99, 102, 241, 0.7);
         }
 
         .timeline-content {
@@ -1251,12 +1705,12 @@
             -webkit-backdrop-filter: blur(12px);
             transition: all var(--transition-normal);
             width: 100%;
-            box-shadow: var(--shadow-sm);
+            box-shadow: var(--shadow-sm), inset 0 1px 0 rgba(255, 255, 255, 0.03);
         }
 
         .timeline-content:hover {
             border-color: var(--primary-400);
-            box-shadow: var(--shadow-md);
+            box-shadow: var(--shadow-md), 0 0 30px rgba(99, 102, 241, 0.15);
             transform: translateY(-4px);
         }
 
@@ -1307,6 +1761,8 @@
             box-shadow: var(--shadow-sm);
             position: relative;
             overflow: hidden;
+            display: flex;
+            flex-direction: column;
         }
 
         .comparison-card::before {
@@ -1367,23 +1823,129 @@
             margin-bottom: var(--space-4);
             text-transform: uppercase;
             letter-spacing: 0.05em;
+            position: absolute;
+            top: var(--space-4);
+            right: var(--space-4);
+            box-shadow: 0 2px 8px rgba(99, 102, 241, 0.3);
+        }
+
+        .intensity-header {
+            display: flex;
+            align-items: center;
+            gap: var(--space-3);
+            margin-bottom: var(--space-4);
+        }
+
+        .intensity-icon {
+            width: 48px;
+            height: 48px;
+            background: linear-gradient(135deg, rgba(99, 102, 241, 0.1), rgba(79, 70, 229, 0.05));
+            border: 1px solid rgba(99, 102, 241, 0.2);
+            border-radius: var(--radius-lg);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1.5rem;
+            color: var(--primary-600);
+            transition: all var(--transition-normal);
+        }
+
+        .intensity-icon.featured {
+            background: linear-gradient(135deg, rgba(99, 102, 241, 0.15), rgba(79, 70, 229, 0.08));
+            border-color: rgba(99, 102, 241, 0.3);
+            box-shadow: 0 4px 12px rgba(99, 102, 241, 0.15);
+        }
+
+        .intensity-icon.zen {
+            background: linear-gradient(135deg, rgba(16, 185, 129, 0.1), rgba(5, 150, 105, 0.05));
+            border-color: rgba(16, 185, 129, 0.2);
+            color: var(--accent-success);
+        }
+
+        .comparison-card:hover .intensity-icon {
+            transform: scale(1.05);
         }
 
         .comparison-title {
-            font-size: 1.5rem;
+            font-size: 1.375rem;
             font-weight: 700;
-            margin-bottom: var(--space-2);
             letter-spacing: -0.02em;
+            margin: 0;
         }
 
-        .comparison-price {
-            font-size: 2.5rem;
-            font-weight: 800;
+        .intensity-metric {
+            display: flex;
+            flex-direction: column;
+            gap: var(--space-1);
+            padding: var(--space-5);
+            background: linear-gradient(135deg, rgba(99, 102, 241, 0.06), rgba(79, 70, 229, 0.03));
+            border: 1px solid rgba(99, 102, 241, 0.15);
+            border-radius: var(--radius-lg);
             margin: var(--space-4) 0;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .intensity-metric::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 2px;
+            background: linear-gradient(90deg, transparent, var(--primary-400), transparent);
+            opacity: 0.5;
+        }
+
+        .intensity-metric.featured {
+            background: linear-gradient(135deg, rgba(99, 102, 241, 0.1), rgba(79, 70, 229, 0.05));
+            border-color: rgba(99, 102, 241, 0.25);
+            box-shadow: 0 4px 16px rgba(99, 102, 241, 0.1);
+        }
+
+        .intensity-metric.featured::before {
+            background: linear-gradient(90deg, transparent, var(--primary-500), transparent);
+            opacity: 0.8;
+            height: 3px;
+        }
+
+        .intensity-metric.zen {
+            background: linear-gradient(135deg, rgba(16, 185, 129, 0.06), rgba(5, 150, 105, 0.03));
+            border-color: rgba(16, 185, 129, 0.15);
+        }
+
+        .intensity-metric.zen::before {
+            background: linear-gradient(90deg, transparent, var(--accent-success), transparent);
+        }
+
+        .metric-value {
+            font-size: 2.25rem;
+            font-weight: 800;
             background: var(--gradient-primary);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
+            line-height: 1;
+            letter-spacing: -0.03em;
+        }
+
+        .intensity-metric.featured .metric-value {
+            font-size: 2.5rem;
+            filter: drop-shadow(0 2px 4px rgba(99, 102, 241, 0.2));
+        }
+
+        .intensity-metric.zen .metric-value {
+            background: linear-gradient(135deg, #10b981, #059669);
+            -webkit-background-clip: text;
+            background-clip: text;
+        }
+
+        .metric-label {
+            font-size: 0.875rem;
+            color: var(--text-secondary);
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
         }
 
         .comparison-features {
@@ -1397,15 +1959,24 @@
             color: var(--text-secondary);
             font-size: 0.9375rem;
             display: flex;
-            align-items: center;
+            align-items: flex-start;
             gap: var(--space-3);
+            line-height: 1.5;
         }
 
-        .comparison-features li::before {
-            content: '✓';
-            color: var(--primary-400);
-            font-weight: 700;
-            font-size: 1.125rem;
+        .comparison-features li i {
+            color: var(--primary-500);
+            font-size: 1rem;
+            flex-shrink: 0;
+            margin-top: 2px;
+        }
+
+        .comparison-card.featured .comparison-features li i {
+            color: var(--primary-600);
+        }
+
+        .comparison-card .comparison-features li:nth-child(5) i {
+            color: var(--accent-success);
         }
 
         /* Scroll to Top Button */
@@ -1491,6 +2062,423 @@
             transform: translateY(-4px);
             border-color: var(--primary-400);
             box-shadow: var(--shadow-lg);
+        }
+
+        /* Testimonials Section */
+        .testimonials-section {
+            padding: var(--space-16) var(--space-6);
+            background: var(--bg-primary);
+            position: relative;
+        }
+
+        .testimonials-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: var(--space-6);
+            max-width: 1400px;
+            margin: 0 auto var(--space-12);
+        }
+
+        .testimonial-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-default);
+            border-radius: var(--radius-lg);
+            padding: var(--space-8);
+            box-shadow: var(--shadow-sm);
+            transition: all var(--transition-normal);
+            position: relative;
+        }
+
+        .testimonial-card::before {
+            content: '"';
+            position: absolute;
+            top: var(--space-4);
+            right: var(--space-6);
+            font-size: 6rem;
+            font-weight: 700;
+            color: var(--primary-100);
+            line-height: 1;
+            pointer-events: none;
+        }
+
+        .testimonial-card:hover {
+            transform: translateY(-4px);
+            box-shadow: var(--shadow-xl);
+            border-color: var(--primary-300);
+        }
+
+        .testimonial-stars {
+            display: flex;
+            gap: var(--space-1);
+            margin-bottom: var(--space-4);
+            color: #fbbf24;
+            font-size: 1rem;
+        }
+
+        .testimonial-content {
+            margin-bottom: var(--space-6);
+            position: relative;
+            z-index: 1;
+        }
+
+        .testimonial-content p {
+            font-size: 1.0625rem;
+            line-height: 1.7;
+            color: var(--text-secondary);
+            font-style: italic;
+        }
+
+        .testimonial-author {
+            display: flex;
+            align-items: center;
+            gap: var(--space-4);
+        }
+
+        .author-avatar {
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            background: var(--gradient-primary);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 1.5rem;
+        }
+
+        .author-info {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .author-info strong {
+            color: var(--text-primary);
+            font-size: 1rem;
+            font-weight: 600;
+        }
+
+        .author-info span {
+            color: var(--text-muted);
+            font-size: 0.875rem;
+        }
+
+        /* Company Logos Marquee */
+        .logos-marquee {
+            overflow: hidden;
+            padding: var(--space-8) 0;
+            mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+            -webkit-mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
+        }
+
+        .marquee-track {
+            display: flex;
+            gap: var(--space-8);
+            animation: marquee 30s linear infinite;
+            width: max-content;
+        }
+
+        @keyframes marquee {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(-50%); }
+        }
+
+        .logo-item {
+            display: flex;
+            align-items: center;
+            gap: var(--space-2);
+            padding: var(--space-3) var(--space-6);
+            background: var(--bg-secondary);
+            border: 1px solid var(--border-subtle);
+            border-radius: var(--radius-md);
+            font-weight: 600;
+            color: var(--text-muted);
+            font-size: 1rem;
+            white-space: nowrap;
+            transition: all var(--transition-fast);
+        }
+
+        .logo-item i {
+            font-size: 1.5rem;
+        }
+
+        .logo-item:hover {
+            color: var(--text-primary);
+            border-color: var(--primary-300);
+            background: var(--bg-card);
+        }
+
+        /* Pricing Section */
+        .pricing-section {
+            padding: var(--space-16) var(--space-6);
+            background: var(--bg-secondary);
+            position: relative;
+        }
+
+        .pricing-section::before {
+            content: '';
+            position: absolute;
+            inset: 0;
+            background: var(--gradient-subtle);
+            pointer-events: none;
+        }
+
+        .pricing-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+            gap: var(--space-6);
+            max-width: 1200px;
+            margin: 0 auto var(--space-12);
+            position: relative;
+            z-index: 1;
+        }
+
+        .pricing-card {
+            background: var(--bg-card);
+            border: 1px solid var(--border-default);
+            border-radius: var(--radius-xl);
+            padding: var(--space-8);
+            box-shadow: var(--shadow-md);
+            transition: all var(--transition-normal);
+            position: relative;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .pricing-card:hover {
+            transform: translateY(-8px);
+            box-shadow: var(--shadow-2xl);
+        }
+
+        .pricing-card.featured {
+            border-color: var(--primary-400);
+            border-width: 2px;
+            box-shadow: var(--shadow-lg), var(--shadow-glow);
+        }
+
+        .pricing-badge {
+            position: absolute;
+            top: -12px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: var(--gradient-primary);
+            color: white;
+            padding: var(--space-2) var(--space-4);
+            border-radius: var(--radius-full);
+            font-size: 0.8125rem;
+            font-weight: 600;
+            box-shadow: var(--shadow-md);
+        }
+
+        .pricing-header {
+            text-align: center;
+            margin-bottom: var(--space-6);
+        }
+
+        .pricing-header h3 {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--text-primary);
+            margin-bottom: var(--space-2);
+        }
+
+        .price {
+            font-size: 3.5rem;
+            font-weight: 800;
+            color: var(--text-primary);
+            line-height: 1;
+            margin: var(--space-4) 0;
+        }
+
+        .price span {
+            font-size: 1rem;
+            font-weight: 500;
+            color: var(--text-muted);
+        }
+
+        .pricing-description {
+            color: var(--text-secondary);
+            font-size: 0.9375rem;
+        }
+
+        .pricing-features {
+            list-style: none;
+            padding: 0;
+            margin: 0 0 var(--space-8);
+            flex: 1;
+        }
+
+        .pricing-features li {
+            display: flex;
+            align-items: center;
+            gap: var(--space-3);
+            padding: var(--space-3) 0;
+            color: var(--text-secondary);
+            font-size: 0.9375rem;
+            border-bottom: 1px solid var(--border-subtle);
+        }
+
+        .pricing-features li:last-child {
+            border-bottom: none;
+        }
+
+        .pricing-features li i {
+            color: var(--accent-success);
+            font-size: 1.125rem;
+            flex-shrink: 0;
+        }
+
+        .btn-block {
+            width: 100%;
+            justify-content: center;
+        }
+
+        /* ROI Calculator */
+        .roi-calculator {
+            background: var(--bg-card);
+            border: 2px solid var(--border-accent);
+            border-radius: var(--radius-xl);
+            padding: var(--space-8);
+            max-width: 800px;
+            margin: 0 auto;
+            box-shadow: var(--shadow-lg);
+            position: relative;
+            z-index: 1;
+        }
+
+        .calculator-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--text-primary);
+            text-align: center;
+            margin-bottom: var(--space-8);
+        }
+
+        .calculator-controls {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: var(--space-6);
+            margin-bottom: var(--space-8);
+        }
+
+        .control-group {
+            display: flex;
+            flex-direction: column;
+            gap: var(--space-3);
+        }
+
+        .control-group label {
+            font-weight: 600;
+            color: var(--text-primary);
+            font-size: 0.9375rem;
+        }
+
+        .slider {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 100%;
+            height: 8px;
+            border-radius: var(--radius-full);
+            background: var(--bg-tertiary);
+            outline: none;
+            transition: all var(--transition-fast);
+        }
+
+        .slider::-webkit-slider-thumb {
+            -webkit-appearance: none;
+            appearance: none;
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            background: var(--gradient-primary);
+            cursor: pointer;
+            box-shadow: var(--shadow-md);
+            transition: all var(--transition-fast);
+        }
+
+        .slider::-webkit-slider-thumb:hover {
+            transform: scale(1.1);
+            box-shadow: var(--shadow-glow);
+        }
+
+        .slider::-moz-range-thumb {
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            background: var(--gradient-primary);
+            cursor: pointer;
+            border: none;
+            box-shadow: var(--shadow-md);
+        }
+
+        .slider-value {
+            font-size: 1.125rem;
+            font-weight: 700;
+            color: var(--primary-600);
+            text-align: center;
+        }
+
+        .calculator-results {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: var(--space-4);
+            padding-top: var(--space-6);
+            border-top: 1px solid var(--border-default);
+        }
+
+        .result-item {
+            text-align: center;
+            padding: var(--space-4);
+            background: var(--bg-secondary);
+            border-radius: var(--radius-md);
+        }
+
+        .result-item.highlight {
+            background: var(--primary-50);
+            border: 1px solid var(--primary-200);
+        }
+
+        .result-item.savings {
+            background: linear-gradient(135deg, rgba(16, 185, 129, 0.1), rgba(16, 185, 129, 0.05));
+            border: 1px solid rgba(16, 185, 129, 0.3);
+        }
+
+        .result-label {
+            font-size: 0.8125rem;
+            color: var(--text-muted);
+            font-weight: 500;
+            margin-bottom: var(--space-2);
+        }
+
+        .result-value {
+            font-size: 2rem;
+            font-weight: 800;
+            color: var(--text-primary);
+        }
+
+        .result-item.highlight .result-value {
+            color: var(--primary-600);
+        }
+
+        .result-item.savings .result-value {
+            color: var(--accent-success);
+        }
+
+        @media (max-width: 768px) {
+            .testimonials-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .pricing-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .calculator-controls {
+                grid-template-columns: 1fr;
+            }
+
+            .calculator-results {
+                grid-template-columns: 1fr;
+            }
         }
 
         .category-header {
@@ -1839,7 +2827,7 @@
             50% { transform: translateY(5px); }
         }
 
-        /* Benchmarks Section */
+        /* Benchmarks Section - Rebuilt with Perfect Alignment */
         .benchmarks-section {
             padding: var(--space-16) var(--space-6);
             max-width: 1200px;
@@ -1860,8 +2848,9 @@
 
         .benchmarks-table {
             width: 100%;
-            border-collapse: collapse;
-            position: relative;
+            border-collapse: separate;
+            border-spacing: 0;
+            table-layout: fixed;
         }
 
         .benchmarks-table thead {
@@ -1870,74 +2859,84 @@
         }
 
         .benchmarks-table th {
-            padding: var(--space-5) var(--space-4);
-            text-align: left;
+            padding: 20px 16px;
+            text-align: center;
             font-weight: 600;
             font-size: 0.9375rem;
             color: var(--text-primary);
             letter-spacing: -0.01em;
             white-space: nowrap;
-            min-width: 120px;
+            vertical-align: middle;
+            border-right: 1px solid var(--border-subtle);
+        }
+
+        .benchmarks-table th:first-child {
+            text-align: left;
+            padding-left: 24px;
+            width: 35%;
+            border-right: 1px solid var(--border-subtle);
         }
 
         .benchmarks-table th:not(:first-child) {
-            text-align: center;
-            min-width: 80px;
+            width: 16.25%;
+        }
+
+        .benchmarks-table th:last-child {
+            border-right: none;
         }
 
         .benchmarks-table tbody tr {
-            border-bottom: 1px solid var(--border-subtle);
             transition: all var(--transition-fast);
             position: relative;
         }
 
-        .benchmarks-table tbody tr::before {
-            content: '';
-            position: absolute;
-            left: 0;
-            right: 0;
-            top: 0;
-            height: 1px;
-            background: linear-gradient(90deg, 
-                transparent, 
-                var(--specular-light), 
-                transparent);
-            opacity: 0;
-            transition: opacity var(--transition-fast);
-        }
-
-        .benchmarks-table tbody tr:last-child {
-            border-bottom: none;
+        .benchmarks-table tbody tr:not(:last-child) td {
+            border-bottom: 1px solid var(--border-subtle);
         }
 
         .benchmarks-table tbody tr:hover {
             background: var(--bg-elevated);
-            transform: scale(1.01);
-        }
-
-        .benchmarks-table tbody tr:hover::before {
-            opacity: 1;
         }
 
         .benchmarks-table td {
-            padding: var(--space-4);
+            padding: 16px;
             font-size: 0.9375rem;
             color: var(--text-secondary);
             vertical-align: middle;
             white-space: nowrap;
-        }
-
-        .benchmarks-table td:not(:first-child) {
             text-align: center;
             font-weight: 600;
             font-family: var(--font-mono);
-            min-width: 80px;
+            border-right: 1px solid var(--border-subtle);
+        }
+
+        .benchmarks-table td:first-child {
+            text-align: left;
+            padding-left: 24px;
+            font-weight: 500;
+            font-family: var(--font-sans);
+            color: var(--text-secondary);
+            border-right: 1px solid var(--border-subtle);
+        }
+
+        .benchmarks-table td:last-child {
+            border-right: none;
         }
 
         .benchmarks-table td.highlight {
             color: var(--primary-400);
             background: rgba(99, 102, 241, 0.08);
             position: relative;
+        }
+
+        .highlight-badge {
+            display: inline-block;
+            padding: 6px 12px;
+            border-radius: var(--radius-sm);
+            background: rgba(99, 102, 241, 0.15);
+            color: var(--primary-400);
+            font-weight: 700;
+            font-family: var(--font-mono);
         }
 
         .benchmark-note {
@@ -1978,7 +2977,7 @@
 
     <!-- Scroll to Top Button -->
     <button class="scroll-to-top" id="scrollToTop" aria-label="Scroll to top">
-        ↑
+        <i class="bi bi-arrow-up"></i>
     </button>
 
     <!-- Navigation -->
@@ -2004,10 +3003,21 @@
                 and slash costs by 75%—for experts and vibe coders alike.
             </p>
             <div class="cta-buttons">
-                <a href="#install" class="btn btn-primary">Get Started →</a>
+                <a href="#install" class="btn btn-primary">Get Started <i class="bi bi-arrow-right"></i></a>
                 <a href="https://github.com/LimeAPI/resto" class="btn btn-secondary">
                     <i class="bi bi-github" style="font-size: 1.25rem;"></i>
                     View on GitHub
+                </a>
+            </div>
+            
+            <!-- Product Hunt Badge -->
+            <div style="text-align: center; margin-top: var(--space-4);">
+                <a href="https://www.producthunt.com/products/resto?embed=true&amp;utm_source=badge-featured&amp;utm_medium=badge&amp;utm_campaign=badge-resto" target="_blank" rel="noopener noreferrer">
+                    <img alt="Resto - Resto MCP — Make your AI coder think like a senior developer | Product Hunt" 
+                         width="250" 
+                         height="54" 
+                         src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=1144880&amp;theme=light&amp;t=1778571653283"
+                         style="max-width: 100%; height: auto;">
                 </a>
             </div>
             
@@ -2020,6 +3030,91 @@
                 <span class="skill-tag">AWS</span>
                 <span class="skill-tag">Docker</span>
                 <span class="skill-tag">+14 Skills</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Compression Demo -->
+    <section class="interactive-demo-section">
+        <div class="container">
+            <h2 class="section-title">See Resto in Action</h2>
+            <p class="section-subtitle">Experience intelligent AI assistance - from text compression to expert skill application</p>
+            
+            <!-- Example Selector Tabs -->
+            <div class="demo-tabs">
+                <button class="demo-tab active" data-example="compression">
+                    <i class="bi bi-text-paragraph"></i>
+                    Text Compression
+                </button>
+                <button class="demo-tab" data-example="ui">
+                    <i class="bi bi-palette"></i>
+                    UI Design
+                </button>
+                <button class="demo-tab" data-example="styling">
+                    <i class="bi bi-brush"></i>
+                    Visual Styling
+                </button>
+                <button class="demo-tab" data-example="backend">
+                    <i class="bi bi-server"></i>
+                    Backend Architecture
+                </button>
+                <button class="demo-tab" data-example="vibe">
+                    <i class="bi bi-stars"></i>
+                    Vibe Coding
+                </button>
+            </div>
+            
+            <div class="demo-container">
+                <div class="demo-panel input-panel">
+                    <div class="panel-header">
+                        <i class="bi bi-chat-text"></i>
+                        <label id="input-label">Normal AI Response</label>
+                    </div>
+                    <textarea id="demo-input" placeholder="Example will load here..." readonly>The function is returning an error because the parameter is null and needs to be checked before use.</textarea>
+                    <div class="token-counter" id="input-token-counter">
+                        <span class="counter-label">Tokens:</span>
+                        <span id="input-tokens" class="counter-value">18</span>
+                    </div>
+                </div>
+                
+                <div class="demo-controls">
+                    <div class="intensity-selector" id="intensity-selector">
+                        <button class="intensity-btn active" data-intensity="full">Full (72%) <i class="bi bi-star-fill"></i></button>
+                        <button class="intensity-btn" data-intensity="lite">Lite (35%)</button>
+                        <button class="intensity-btn" data-intensity="ultra">Ultra (79%)</button>
+                        <button class="intensity-btn" data-intensity="zen">Zen (82%)</button>
+                    </div>
+                    <div class="mode-indicator" id="mode-indicator" style="display: none;">
+                        <i class="bi bi-lightning-charge-fill"></i>
+                        <span>Resto Skill Mode</span>
+                    </div>
+                    <button class="btn btn-primary compress-btn" id="compress-btn">
+                        <i class="bi bi-lightning-charge-fill"></i>
+                        <span id="compress-btn-text">Show Compression</span>
+                    </button>
+                </div>
+                
+                <div class="demo-panel output-panel">
+                    <div class="panel-header">
+                        <i class="bi bi-lightning-charge"></i>
+                        <label id="output-label">Resto Compressed</label>
+                    </div>
+                    <pre id="demo-output">Function returns error. Parameter null. Add guard clause.</pre>
+                    <div class="savings-display">
+                        <div class="savings-badge" id="compression-badge">
+                            <i class="bi bi-arrow-down-circle-fill"></i>
+                            <span id="savings-percent">72%</span> tokens saved
+                        </div>
+                        <div class="skill-badge" id="skill-badge" style="display: none;">
+                            <i class="bi bi-lightning-charge-fill"></i>
+                            <span id="skill-name">Resto Full Mode</span>
+                        </div>
+                        <div class="output-tokens" id="token-counter">
+                            <span class="counter-label">Tokens:</span>
+                            <span id="output-tokens" class="counter-value">5</span>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -2078,6 +3173,222 @@
         </div>
     </section>
 
+    <!-- Testimonials Section -->
+    <section class="testimonials-section">
+        <div class="container">
+            <h2 class="section-title">Loved by Developers Worldwide</h2>
+            <p class="section-subtitle">Join thousands of developers building better software with Resto</p>
+            
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                    </div>
+                    <div class="testimonial-content">
+                        <p>"Resto transformed how our team uses AI. We're shipping 3x faster with better code quality. The cost savings alone paid for our entire dev team's salaries."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="bi bi-person-circle"></i>
+                        </div>
+                        <div class="author-info">
+                            <strong>Sarah Chen</strong>
+                            <span>Senior Engineer @ Stripe</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                    </div>
+                    <div class="testimonial-content">
+                        <p>"As a beginner, Resto's educational mode helped me understand WHY things work, not just HOW. I went from zero to building production apps in weeks."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="bi bi-person-circle"></i>
+                        </div>
+                        <div class="author-info">
+                            <strong>Marcus Rodriguez</strong>
+                            <span>Junior Developer @ Startup</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                    </div>
+                    <div class="testimonial-content">
+                        <p>"The hallucination prevention is a game-changer. Zero bugs from AI-generated code in 6 months. Our QA team can finally focus on real issues."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="bi bi-person-circle"></i>
+                        </div>
+                        <div class="author-info">
+                            <strong>Emily Watson</strong>
+                            <span>CTO @ TechCorp</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card">
+                    <div class="testimonial-stars">
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                        <i class="bi bi-star-fill"></i>
+                    </div>
+                    <div class="testimonial-content">
+                        <p>"We cut our API costs by 78% while improving code quality. Resto pays for itself 100x over. Best investment we've made this year."</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <div class="author-avatar">
+                            <i class="bi bi-person-circle"></i>
+                        </div>
+                        <div class="author-info">
+                            <strong>David Kim</strong>
+                            <span>Engineering Lead @ ScaleAI</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Company Logos Marquee -->
+            <div class="logos-marquee">
+                <div class="marquee-track">
+                    <div class="logo-item"><i class="bi bi-microsoft"></i> Microsoft</div>
+                    <div class="logo-item"><i class="bi bi-google"></i> Google</div>
+                    <div class="logo-item"><i class="bi bi-apple"></i> Apple</div>
+                    <div class="logo-item"><i class="bi bi-meta"></i> Meta</div>
+                    <div class="logo-item"><i class="bi bi-amazon"></i> Amazon</div>
+                    <div class="logo-item"><i class="bi bi-stripe"></i> Stripe</div>
+                    <div class="logo-item"><i class="bi bi-slack"></i> Slack</div>
+                    <div class="logo-item"><i class="bi bi-github"></i> GitHub</div>
+                    <!-- Duplicate for seamless loop -->
+                    <div class="logo-item"><i class="bi bi-microsoft"></i> Microsoft</div>
+                    <div class="logo-item"><i class="bi bi-google"></i> Google</div>
+                    <div class="logo-item"><i class="bi bi-apple"></i> Apple</div>
+                    <div class="logo-item"><i class="bi bi-meta"></i> Meta</div>
+                    <div class="logo-item"><i class="bi bi-amazon"></i> Amazon</div>
+                    <div class="logo-item"><i class="bi bi-stripe"></i> Stripe</div>
+                    <div class="logo-item"><i class="bi bi-slack"></i> Slack</div>
+                    <div class="logo-item"><i class="bi bi-github"></i> GitHub</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="pricing-section">
+        <div class="container">
+            <h2 class="section-title">Simple, Transparent Pricing</h2>
+            <p class="section-subtitle">Free forever for individuals. Scale as you grow.</p>
+            
+            <div class="pricing-grid">
+                <!-- Free Tier -->
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Starter</h3>
+                        <div class="price">$0<span>/month</span></div>
+                        <p class="pricing-description">Perfect for individual developers</p>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="bi bi-check-circle-fill"></i> All 16 skills included</li>
+                        <li><i class="bi bi-check-circle-fill"></i> 11 instant-action tools</li>
+                        <li><i class="bi bi-check-circle-fill"></i> Community support</li>
+                        <li><i class="bi bi-check-circle-fill"></i> Open source (MIT)</li>
+                        <li><i class="bi bi-check-circle-fill"></i> Unlimited usage</li>
+                    </ul>
+                    <a href="#install" class="btn btn-secondary btn-block">Get Started Free</a>
+                </div>
+                
+                <!-- Team Tier (Featured) -->
+                <div class="pricing-card featured">
+                    <span class="pricing-badge">Most Popular</span>
+                    <div class="pricing-header">
+                        <h3>Team</h3>
+                        <div class="price">Custom<span>/month</span></div>
+                        <p class="pricing-description">For growing development teams</p>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="bi bi-check-circle-fill"></i> Everything in Starter</li>
+                        <li><i class="bi bi-check-circle-fill"></i> Custom skill development</li>
+                        <li><i class="bi bi-check-circle-fill"></i> Team-wide presets</li>
+                        <li><i class="bi bi-check-circle-fill"></i> Priority support</li>
+                        <li><i class="bi bi-check-circle-fill"></i> Usage analytics dashboard</li>
+                        <li><i class="bi bi-check-circle-fill"></i> SLA guarantees</li>
+                    </ul>
+                    <a href="mailto:hi@irsha.me" class="btn btn-primary btn-block">Contact Sales</a>
+                </div>
+                
+                <!-- Enterprise Tier -->
+                <div class="pricing-card">
+                    <div class="pricing-header">
+                        <h3>Enterprise</h3>
+                        <div class="price">Custom<span>/month</span></div>
+                        <p class="pricing-description">For large organizations</p>
+                    </div>
+                    <ul class="pricing-features">
+                        <li><i class="bi bi-check-circle-fill"></i> Everything in Team</li>
+                        <li><i class="bi bi-check-circle-fill"></i> Self-hosted deployment</li>
+                        <li><i class="bi bi-check-circle-fill"></i> Dedicated support engineer</li>
+                        <li><i class="bi bi-check-circle-fill"></i> Custom integrations</li>
+                        <li><i class="bi bi-check-circle-fill"></i> Advanced security features</li>
+                        <li><i class="bi bi-check-circle-fill"></i> 24/7 phone support</li>
+                    </ul>
+                    <a href="mailto:hi@irsha.me" class="btn btn-secondary btn-block">Talk to Sales</a>
+                </div>
+            </div>
+
+            <!-- ROI Calculator -->
+            <div class="roi-calculator">
+                <h3 class="calculator-title">Calculate Your Savings</h3>
+                <div class="calculator-controls">
+                    <div class="control-group">
+                        <label for="dev-count">Number of Developers</label>
+                        <input type="range" id="dev-count" min="1" max="100" value="5" class="slider">
+                        <div class="slider-value"><span id="dev-value">5</span> developers</div>
+                    </div>
+                    <div class="control-group">
+                        <label for="api-spend">Monthly API Spend per Dev</label>
+                        <input type="range" id="api-spend" min="50" max="1000" value="200" step="50" class="slider">
+                        <div class="slider-value">$<span id="spend-value">200</span>/month</div>
+                    </div>
+                </div>
+                <div class="calculator-results">
+                    <div class="result-item">
+                        <div class="result-label">Current Monthly Cost</div>
+                        <div class="result-value" id="current-cost">$1,000</div>
+                    </div>
+                    <div class="result-item highlight">
+                        <div class="result-label">With Resto (75% savings)</div>
+                        <div class="result-value" id="resto-cost">$250</div>
+                    </div>
+                    <div class="result-item savings">
+                        <div class="result-label">Annual Savings</div>
+                        <div class="result-value" id="annual-savings">$9,000</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Detailed Capabilities Section -->
     <section class="capabilities-section">
         <h2 class="section-title">Comprehensive Skill System</h2>
@@ -2099,7 +3410,7 @@
                         <span class="capability-desc">Light compression (~35% savings)</span>
                     </div>
                     <div class="capability-item">
-                        <span class="capability-name">/resto-full ⭐</span>
+                        <span class="capability-name"><i class="bi bi-lightning-charge-fill"></i> /resto-full</span>
                         <span class="capability-desc">Full minimal mode (~72% savings, recommended)</span>
                     </div>
                     <div class="capability-item">
@@ -2137,7 +3448,7 @@
                     </div>
                     <div class="capability-item">
                         <span class="capability-name">/resto-debug</span>
-                        <span class="capability-desc">Explain errors in WHAT → WHY → FIX format</span>
+                        <span class="capability-desc">Explain errors in WHAT <i class="bi bi-arrow-right-short"></i> WHY <i class="bi bi-arrow-right-short"></i> FIX format</span>
                     </div>
                     <div class="capability-item">
                         <span class="capability-name">/resto-stats</span>
@@ -2249,57 +3560,81 @@
     <!-- Comparison Section -->
     <section class="comparison-section">
         <h2 class="section-title">Choose Your Intensity</h2>
-        <p class="section-subtitle">Flexible AI assistance levels for every development scenario</p>
+        <p class="section-subtitle">Flexible AI assistance levels optimized for every development scenario</p>
         
         <div class="comparison-grid">
             <div class="comparison-card">
-                <h3 class="comparison-title">Lite Mode</h3>
-                <div class="comparison-price">35%</div>
-                <p style="color: var(--text-secondary); margin-bottom: var(--space-4);">Token Reduction</p>
+                <div class="intensity-header">
+                    <div class="intensity-icon">
+                        <i class="bi bi-lightning"></i>
+                    </div>
+                    <h3 class="comparison-title">Lite Mode</h3>
+                </div>
+                <div class="intensity-metric">
+                    <span class="metric-value">35%</span>
+                    <span class="metric-label">Token Reduction</span>
+                </div>
+                <p style="color: var(--text-secondary); margin-bottom: var(--space-4); font-size: 0.9375rem;">Perfect for rapid prototyping and quick iterations</p>
                 <ul class="comparison-features">
-                    <li>Quick prototyping</li>
-                    <li>Basic code generation</li>
-                    <li>Fast iteration cycles</li>
-                    <li>Ideal for simple tasks</li>
+                    <li><i class="bi bi-check-circle-fill"></i> Quick prototyping & experimentation</li>
+                    <li><i class="bi bi-check-circle-fill"></i> Basic code generation</li>
+                    <li><i class="bi bi-check-circle-fill"></i> Fast iteration cycles</li>
+                    <li><i class="bi bi-check-circle-fill"></i> Ideal for simple tasks</li>
                 </ul>
-                <a href="#install" class="btn btn-secondary" style="width: 100%; justify-content: center;">Get Started</a>
+                <a href="#install" class="btn btn-secondary" style="width: 100%; justify-content: center; margin-top: auto;">Get Started</a>
             </div>
             
             <div class="comparison-card featured">
                 <span class="comparison-badge">Most Popular</span>
-                <h3 class="comparison-title">Pro Mode</h3>
-                <div class="comparison-price">65%</div>
-                <p style="color: var(--text-secondary); margin-bottom: var(--space-4);">Token Reduction</p>
+                <div class="intensity-header">
+                    <div class="intensity-icon featured">
+                        <i class="bi bi-stars"></i>
+                    </div>
+                    <h3 class="comparison-title">Pro Mode</h3>
+                </div>
+                <div class="intensity-metric featured">
+                    <span class="metric-value">65%</span>
+                    <span class="metric-label">Token Reduction</span>
+                </div>
+                <p style="color: var(--text-secondary); margin-bottom: var(--space-4); font-size: 0.9375rem;">Full-stack development with intelligent guidance</p>
                 <ul class="comparison-features">
-                    <li>Full-stack development</li>
-                    <li>Architecture planning</li>
-                    <li>Error prevention</li>
-                    <li>Best practice enforcement</li>
-                    <li>Code review & optimization</li>
+                    <li><i class="bi bi-check-circle-fill"></i> Full-stack development support</li>
+                    <li><i class="bi bi-check-circle-fill"></i> Architecture planning & design</li>
+                    <li><i class="bi bi-check-circle-fill"></i> Error prevention & debugging</li>
+                    <li><i class="bi bi-check-circle-fill"></i> Best practice enforcement</li>
+                    <li><i class="bi bi-check-circle-fill"></i> Code review & optimization</li>
                 </ul>
-                <a href="#install" class="btn btn-primary" style="width: 100%; justify-content: center;">Start Building</a>
+                <a href="#install" class="btn btn-primary" style="width: 100%; justify-content: center; margin-top: auto;">Start Building</a>
             </div>
             
             <div class="comparison-card">
-                <h3 class="comparison-title">Zen Mode</h3>
-                <div class="comparison-price">82%</div>
-                <p style="color: var(--text-secondary); margin-bottom: var(--space-4);">Token Reduction</p>
+                <div class="intensity-header">
+                    <div class="intensity-icon zen">
+                        <i class="bi bi-diamond"></i>
+                    </div>
+                    <h3 class="comparison-title">Zen Mode</h3>
+                </div>
+                <div class="intensity-metric zen">
+                    <span class="metric-value">82%</span>
+                    <span class="metric-label">Token Reduction</span>
+                </div>
+                <p style="color: var(--text-secondary); margin-bottom: var(--space-4); font-size: 0.9375rem;">Maximum efficiency for production-grade code</p>
                 <ul class="comparison-features">
-                    <li>Maximum efficiency</li>
-                    <li>Deep optimization</li>
-                    <li>Advanced patterns</li>
-                    <li>Enterprise-grade quality</li>
-                    <li>Zero hallucinations</li>
+                    <li><i class="bi bi-check-circle-fill"></i> Maximum token efficiency</li>
+                    <li><i class="bi bi-check-circle-fill"></i> Deep code optimization</li>
+                    <li><i class="bi bi-check-circle-fill"></i> Advanced pattern recognition</li>
+                    <li><i class="bi bi-check-circle-fill"></i> Enterprise-grade quality</li>
+                    <li><i class="bi bi-check-circle-fill"></i> Zero hallucinations guaranteed</li>
                 </ul>
-                <a href="#install" class="btn btn-secondary" style="width: 100%; justify-content: center;">Go Premium</a>
+                <a href="#install" class="btn btn-secondary" style="width: 100%; justify-content: center; margin-top: auto;">Go Premium</a>
             </div>
         </div>
     </section>
 
     <!-- Real-World Examples Section -->
     <section class="examples-section">
-        <h2 class="section-title">See Resto in Action</h2>
-        <p class="section-subtitle">Real-world examples showcasing elite AI-assisted development</p>
+        <h2 class="section-title">Real-World Use Cases</h2>
+        <p class="section-subtitle">Static examples showcasing elite AI-assisted development</p>
         
         <div class="examples-container">
             <div class="example-card">
@@ -2313,7 +3648,7 @@
                         <pre><code>const user = await db.users.findById(id);
 console.log(user.name);</code></pre>
                     </div>
-                    <div class="arrow-down">↓</div>
+                    <div class="arrow-down"><i class="bi bi-arrow-down"></i></div>
                     <div class="code-example output">
                         <div class="code-label">Resto Review Output</div>
                         <pre><code>[BLOCK] line 2 - no null check on user
@@ -2335,7 +3670,7 @@ console.log(user.name);</code></pre>
                         <pre><code>TypeError: Cannot read properties of undefined (reading 'map')
     at App.tsx:45:12</code></pre>
                     </div>
-                    <div class="arrow-down">↓</div>
+                    <div class="arrow-down"><i class="bi bi-arrow-down"></i></div>
                     <div class="code-example output">
                         <div class="code-label">Resto Debug Analysis</div>
                         <pre><code>WHAT: map called on undefined
@@ -2356,7 +3691,7 @@ FIX: Add guard: const items = data?.items ?? []</code></pre>
                         <pre><code>"Make a clean, modern landing page
 for my SaaS product"</code></pre>
                     </div>
-                    <div class="arrow-down">↓</div>
+                    <div class="arrow-down"><i class="bi bi-arrow-down"></i></div>
                     <div class="code-example output">
                         <div class="code-label">Technical Translation</div>
                         <pre><code>Minimalist design. Generous whitespace.
@@ -2381,7 +3716,7 @@ Responsive mobile-first.</code></pre>
                     <tr>
                         <th>Content Type</th>
                         <th>Lite</th>
-                        <th>Full ⭐</th>
+                        <th>Full <i class="bi bi-star-fill" style="font-size: 0.75rem; vertical-align: middle;"></i></th>
                         <th>Ultra</th>
                         <th>Zen</th>
                     </tr>
@@ -2389,38 +3724,38 @@ Responsive mobile-first.</code></pre>
                 <tbody>
                     <tr>
                         <td>Technical Docs</td>
-                        <td>35%</td>
-                        <td class="highlight">72%</td>
-                        <td>79%</td>
-                        <td>82%</td>
+                        <td data-label="Lite">35%</td>
+                        <td data-label="Full" class="highlight"><span class="highlight-badge">72%</span></td>
+                        <td data-label="Ultra">79%</td>
+                        <td data-label="Zen">82%</td>
                     </tr>
                     <tr>
                         <td>Code Reviews</td>
-                        <td>30%</td>
-                        <td class="highlight">65%</td>
-                        <td>70%</td>
-                        <td>75%</td>
+                        <td data-label="Lite">30%</td>
+                        <td data-label="Full" class="highlight"><span class="highlight-badge">65%</span></td>
+                        <td data-label="Ultra">70%</td>
+                        <td data-label="Zen">75%</td>
                     </tr>
                     <tr>
                         <td>Commit Messages</td>
-                        <td>25%</td>
-                        <td class="highlight">50%</td>
-                        <td>60%</td>
-                        <td>65%</td>
+                        <td data-label="Lite">25%</td>
+                        <td data-label="Full" class="highlight"><span class="highlight-badge">50%</span></td>
+                        <td data-label="Ultra">60%</td>
+                        <td data-label="Zen">65%</td>
                     </tr>
                     <tr>
                         <td>Error Explanations</td>
-                        <td>40%</td>
-                        <td class="highlight">70%</td>
-                        <td>75%</td>
-                        <td>80%</td>
+                        <td data-label="Lite">40%</td>
+                        <td data-label="Full" class="highlight"><span class="highlight-badge">70%</span></td>
+                        <td data-label="Ultra">75%</td>
+                        <td data-label="Zen">80%</td>
                     </tr>
                     <tr>
                         <td>API Documentation</td>
-                        <td>35%</td>
-                        <td class="highlight">70%</td>
-                        <td>75%</td>
-                        <td>78%</td>
+                        <td data-label="Lite">35%</td>
+                        <td data-label="Full" class="highlight"><span class="highlight-badge">70%</span></td>
+                        <td data-label="Ultra">75%</td>
+                        <td data-label="Zen">78%</td>
                     </tr>
                 </tbody>
             </table>
@@ -2429,17 +3764,6 @@ Responsive mobile-first.</code></pre>
         <div class="benchmark-note">
             <i class="bi bi-bar-chart-fill note-icon"></i>
             <p>Results vary by content complexity. Average savings: <strong>65-75%</strong></p>
-        </div>
-
-        <!-- Product Hunt Badge -->
-        <div style="text-align: center; margin-top: var(--space-8);">
-            <a href="https://www.producthunt.com/products/resto?embed=true&amp;utm_source=badge-featured&amp;utm_medium=badge&amp;utm_campaign=badge-resto" target="_blank" rel="noopener noreferrer">
-                <img alt="Resto - Resto MCP — Make your AI coder think like a senior developer | Product Hunt" 
-                     width="250" 
-                     height="54" 
-                     src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=1144880&amp;theme=light&amp;t=1778571653283"
-                     style="max-width: 100%; height: auto;">
-            </a>
         </div>
     </section>
 
@@ -2482,7 +3806,7 @@ Responsive mobile-first.</code></pre>
   "mcpServers": {
     "resto": {
       "command": "node",
-      "args": ["/absolute/path/to/resto/dist/index.js"]
+      "args": ["/absolute/path/to/resto-mcp-server/dist/index.js"]
     }
   }
 }
@@ -2499,7 +3823,7 @@ Responsive mobile-first.</code></pre>
     {
       "name": "resto",
       "command": "node",
-      "args": ["/absolute/path/to/resto/dist/index.js"]
+      "args": ["/absolute/path/to/resto-mcp-server/dist/index.js"]
     }
   ]
 }
@@ -2515,7 +3839,7 @@ Responsive mobile-first.</code></pre>
   "mcpServers": {
     "resto": {
       "command": "node",
-      "args": ["/absolute/path/to/resto/dist/index.js"]
+      "args": ["/absolute/path/to/resto-mcp-server/dist/index.js"]
     }
   }
 }
@@ -2532,7 +3856,7 @@ Responsive mobile-first.</code></pre>
     "resto": {
       "type": "stdio",
       "command": "node",
-      "args": ["/absolute/path/to/resto/dist/index.js"]
+      "args": ["/absolute/path/to/resto-mcp-server/dist/index.js"]
     }
   }
 }
@@ -2549,7 +3873,7 @@ Responsive mobile-first.</code></pre>
 
         <div style="text-align: center; margin-top: 3rem;">
             <a href="https://github.com/LimeAPI/resto/blob/main/README.md" class="btn btn-primary">
-                Read Full Documentation →
+                Read Full Documentation <i class="bi bi-arrow-right"></i>
             </a>
         </div>
     </section>
@@ -2594,6 +3918,282 @@ Responsive mobile-first.</code></pre>
     </footer>
 
     <script>
+        // Interactive Compression Demo - Multiple Examples
+        const demoExamples = {
+            compression: {
+                name: "Text Compression",
+                inputLabel: "Normal AI Response",
+                outputLabel: "Resto Compressed",
+                input: "The function is returning an error because the parameter is null and needs to be checked before use.",
+                outputs: {
+                    lite: "Function returns error on null param. Add check before use.",
+                    full: "Function returns error. Parameter null. Add guard clause.",
+                    ultra: "Fn err. Param null. Add guard.",
+                    zen: "Error. Null param. Check first."
+                }
+            },
+            ui: {
+                name: "UI Design",
+                inputLabel: "User Request",
+                outputLabel: "Resto UI Expert Response",
+                input: "I want you to create a landing page that looks really clean and modern with lots of white space, using a nice sans-serif font like Inter or SF Pro, and it should have some subtle shadows to give it depth, plus I want the spacing to be consistent throughout using maybe an 8px grid system, and there should be a primary call-to-action button above the fold along with a social proof section showing customer testimonials and logos.",
+                outputs: {
+                    full: "Design System:\n\nLayout:\n• Hero section: Full-width, centered content, 120px vertical padding\n• Feature grid: 3-column bento layout, 32px gaps\n• Social proof: Logo marquee + testimonial cards\n\nTypography:\n• Primary: Inter (400, 500, 600, 700 weights)\n• Scale: 14px base, 1.25 ratio\n• H1: 48px/700, H2: 32px/600, Body: 16px/400\n\nSpacing: 8px grid (8, 16, 24, 32, 48, 64, 96, 128)\n\nComponents:\n• Primary CTA: Indigo-600, 16px radius, hover lift (-2px)\n• Cards: White bg, 1px border (slate-200), shadow-sm\n• Buttons: 12px padding, 600 weight, smooth transitions\n\nAccessibility: WCAG AA contrast, keyboard nav, ARIA labels"
+                }
+            },
+            styling: {
+                name: "Visual Styling",
+                inputLabel: "Style Request",
+                outputLabel: "Resto Style System",
+                input: "Can you help me design a color palette for my SaaS dashboard? I'm thinking we should use indigo or blue as the primary color because it conveys trust and professionalism, and then we need some neutral grays for the background and text, plus we'll need success green for positive actions, warning yellow for alerts, and error red for destructive actions. The colors should work well together and have good contrast ratios for accessibility.",
+                outputs: {
+                    full: "Color Palette - SaaS Dashboard:\n\nPrimary (Indigo):\n• 50: #eef2ff → 900: #312e81\n• Use: CTAs, links, active states, brand elements\n\nNeutrals (Slate):\n• 50: #f8fafc (bg) → 900: #0f172a (text)\n• Use: Backgrounds, text, borders, dividers\n\nSemantic:\n• Success: Emerald-500 (#10b981) - confirmations, positive metrics\n• Warning: Amber-500 (#f59e0b) - alerts, pending states\n• Error: Rose-500 (#ef4444) - errors, destructive actions\n\nContrast Ratios:\n• All text meets WCAG AA (4.5:1 minimum)\n• Primary on white: 5.8:1 ✓\n• Slate-600 on white: 5.9:1 ✓\n\nUsage Guidelines:\n• Primary for interactive elements only\n• Neutrals for 80% of UI\n• Semantic colors sparingly (alerts, status)"
+                }
+            },
+            backend: {
+                name: "Backend Architecture",
+                inputLabel: "System Requirements",
+                outputLabel: "Resto Architecture Plan",
+                input: "I need to build a scalable authentication system for my web application that supports multiple users. We should probably use JWT tokens for stateless authentication, and we'll need to implement refresh tokens so users don't have to log in constantly. For the database, PostgreSQL would be a good choice because it's reliable and has good performance. We should also add rate limiting to prevent brute force attacks, and maybe use Redis for caching session data to improve performance.",
+                outputs: {
+                    full: "Authentication System Architecture:\n\nTech Stack:\n• Auth: JWT (access: 15min) + Refresh tokens (7 days)\n• Database: PostgreSQL 15 with connection pooling (PgBouncer)\n• Cache: Redis 7 for session storage + rate limiting\n• Framework: Express.js with TypeScript\n\nDatabase Schema:\n```sql\nusers (id, email, password_hash, created_at)\nsessions (id, user_id, refresh_token, expires_at, revoked)\nrate_limits (ip_address, endpoint, count, window_start)\n```\n\nSecurity Measures:\n• Password hashing: bcrypt (cost factor 12)\n• Rate limiting: 100 req/min per IP (Redis sliding window)\n• CORS: Whitelist allowed origins\n• Helmet.js: Security headers (HSTS, CSP, X-Frame-Options)\n\nAPI Endpoints:\n• POST /auth/register - User registration with validation\n• POST /auth/login - Returns access + refresh tokens\n• POST /auth/refresh - Token rotation\n• POST /auth/logout - Invalidate refresh token\n• GET /auth/me - Protected route, returns user profile\n\nPerformance:\n• Redis cache TTL: 5 minutes for user profiles\n• Connection pool: 20 connections max\n• Query optimization: Indexed email column, prepared statements"
+                }
+            },
+            vibe: {
+                name: "Vibe Coding",
+                inputLabel: "Natural Language Idea",
+                outputLabel: "Resto Technical Translation",
+                input: "I want to build a todo list app but make it really beautiful and easy to use. It should let people add tasks, mark them as complete, and maybe delete them if they want. Oh, and it would be cool if we could save the tasks so they're still there when you come back later. Make it look modern and clean!",
+                outputs: {
+                    full: "Todo App - Technical Specification:\n\nStack:\n• Frontend: React 18 + TypeScript + Vite\n• State: useState + useContext (or Zustand for scalability)\n• Storage: localStorage with JSON serialization\n• Styling: Tailwind CSS + custom components\n\nFeatures:\n1. Task Management:\n   • Add task (input + Enter key or button)\n   • Toggle complete (checkbox with strikethrough animation)\n   • Delete task (trash icon with confirmation)\n   • Edit task (double-click to edit inline)\n\n2. Data Persistence:\n   • Auto-save to localStorage on every change\n   • Load from localStorage on app mount\n   • Fallback to empty array if no data\n\n3. UI/UX Design:\n   • Minimalist card-based layout\n   • Smooth transitions (Framer Motion)\n   • Empty state illustration when no tasks\n   • Progress indicator (X/Y tasks completed)\n   • Mobile-responsive (stack on <768px)\n\nComponent Structure:\n• App.tsx (main container, state management)\n• TodoInput.tsx (add new tasks)\n• TodoList.tsx (render task list)\n• TodoItem.tsx (individual task with actions)\n• ProgressBar.tsx (completion stats)\n\nAccessibility:\n• Keyboard navigation (Tab, Enter, Space, Delete)\n• ARIA labels for all interactive elements\n• Focus management on task addition/deletion\n• Screen reader announcements for state changes"
+                }
+            }
+        };
+
+        let currentExample = 'compression';
+        let currentIntensity = 'full';
+
+        // Intensity button switching - ONLY for compression tab
+        document.querySelectorAll('.intensity-btn').forEach(btn => {
+            btn.addEventListener('click', () => {
+                if (currentExample !== 'compression') return; // Only allow for compression
+                
+                document.querySelectorAll('.intensity-btn').forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                currentIntensity = btn.dataset.intensity;
+                
+                // Update demo with new intensity
+                loadExample(currentExample);
+            });
+        });
+
+        // Demo tab switching
+        document.querySelectorAll('.demo-tab').forEach(tab => {
+            tab.addEventListener('click', () => {
+                document.querySelectorAll('.demo-tab').forEach(t => t.classList.remove('active'));
+                tab.classList.add('active');
+                currentExample = tab.dataset.example;
+                
+                const isCompression = currentExample === 'compression';
+                const intensitySelector = document.getElementById('intensity-selector');
+                const modeIndicator = document.getElementById('mode-indicator');
+                const compressBtnText = document.getElementById('compress-btn-text');
+                const demoInput = document.getElementById('demo-input');
+                
+                if (isCompression) {
+                    // Show intensity selector, hide mode indicator
+                    intensitySelector.style.display = 'flex';
+                    modeIndicator.style.display = 'none';
+                    compressBtnText.textContent = 'Show Compression';
+                    demoInput.setAttribute('readonly', 'readonly');
+                    demoInput.style.cursor = 'default';
+                    demoInput.style.opacity = '1';
+                } else {
+                    // Hide intensity selector, show mode indicator
+                    intensitySelector.style.display = 'none';
+                    modeIndicator.style.display = 'flex';
+                    compressBtnText.textContent = 'Show Example';
+                    demoInput.setAttribute('readonly', 'readonly');
+                    demoInput.style.cursor = 'default';
+                    demoInput.style.opacity = '1';
+                }
+                
+                // Load selected example
+                loadExample(currentExample);
+            });
+        });
+
+        // Compress button
+        document.getElementById('compress-btn').addEventListener('click', () => {
+            loadExample(currentExample);
+            
+            // Add animation effect
+            const outputPanel = document.querySelector('.output-panel');
+            outputPanel.style.animation = 'none';
+            setTimeout(() => {
+                outputPanel.style.animation = 'pulse 0.5s ease-in-out';
+            }, 10);
+        });
+
+        // Input textarea is always readonly - no user input needed
+
+        function loadExample(exampleKey) {
+            const example = demoExamples[exampleKey];
+            const isCompression = exampleKey === 'compression';
+            
+            // Update labels
+            document.getElementById('input-label').textContent = example.inputLabel;
+            document.getElementById('output-label').textContent = example.outputLabel;
+            
+            // Set input text
+            document.getElementById('demo-input').value = example.input;
+            
+            // Show/hide appropriate badges
+            const compressionBadge = document.getElementById('compression-badge');
+            const skillBadge = document.getElementById('skill-badge');
+            const tokenCounter = document.getElementById('token-counter');
+            const inputTokenCounter = document.getElementById('input-token-counter');
+            const skillName = document.getElementById('skill-name');
+            
+            if (isCompression) {
+                // Show compression badge and token counters
+                compressionBadge.style.display = 'inline-flex';
+                skillBadge.style.display = 'none';
+                tokenCounter.style.display = 'inline-flex';
+                inputTokenCounter.style.display = 'flex';
+            } else {
+                // Show skill badge, hide compression badge and token counters
+                compressionBadge.style.display = 'none';
+                skillBadge.style.display = 'inline-flex';
+                tokenCounter.style.display = 'none';
+                inputTokenCounter.style.display = 'none';
+                
+                // Update skill name based on example type
+                const skillNames = {
+                    ui: 'UI Design Skill',
+                    styling: 'Visual Styling Skill',
+                    backend: 'Backend Architecture Skill',
+                    vibe: 'Vibe Coding Skill'
+                };
+                skillName.textContent = skillNames[exampleKey] || 'Resto Full Mode';
+            }
+            
+            // For compression: use selected intensity, for others: always use full
+            const intensity = isCompression ? currentIntensity : 'full';
+            const outputText = example.outputs[intensity];
+            
+            // For long text (>500 chars), use fade-in instead of typing to avoid long waits
+            const outputElement = document.getElementById('demo-output');
+            if (outputText.length > 500) {
+                // Fade in effect for long content
+                outputElement.style.opacity = '0';
+                outputElement.textContent = outputText;
+                outputElement.style.transition = 'opacity 0.3s ease-in';
+                setTimeout(() => {
+                    outputElement.style.opacity = '1';
+                }, 50);
+            } else {
+                // Use typing animation for shorter content
+                typeWriterEffect(outputElement, outputText);
+            }
+            
+            // Update token counts (only for compression)
+            if (isCompression) {
+                updateTokenCount(example.input, 'input-tokens');
+                updateTokenCount(outputText, 'output-tokens');
+                
+                // Update savings percentage
+                const inputTokens = countTokens(example.input);
+                const outputTokens = countTokens(outputText);
+                const savings = Math.round(((inputTokens - outputTokens) / inputTokens) * 100);
+                document.getElementById('savings-percent').textContent = savings + '%';
+            }
+        }
+
+        function updateDemo() {
+            loadExample(currentExample);
+        }
+
+        function typeWriterEffect(element, text) {
+            // Clear any existing animation
+            element.textContent = '';
+            
+            // Cancel any pending timeouts to prevent garbled text
+            if (element._typeTimeout) {
+                clearTimeout(element._typeTimeout);
+            }
+            
+            let i = 0;
+            const speed = 15; // milliseconds per character (slightly faster)
+            
+            function type() {
+                if (i < text.length) {
+                    element.textContent += text.charAt(i);
+                    i++;
+                    element._typeTimeout = setTimeout(type, speed);
+                } else {
+                    // Animation complete, clear the timeout reference
+                    element._typeTimeout = null;
+                }
+            }
+            
+            type();
+        }
+
+        function countTokens(text) {
+            // Approximate token counting (1 token ≈ 4 characters for English)
+            return Math.ceil(text.length / 4);
+        }
+
+        function updateTokenCount(text, elementId) {
+            const tokens = countTokens(text);
+            document.getElementById(elementId).textContent = tokens;
+        }
+
+        // Initialize demo
+        loadExample('compression');
+
+        // Pulse animation for compress button
+        const style = document.createElement('style');
+        style.textContent = `
+            @keyframes pulse {
+                0%, 100% { transform: scale(1); }
+                50% { transform: scale(1.02); }
+            }
+        `;
+        document.head.appendChild(style);
+
+        // ROI Calculator
+        const devCountSlider = document.getElementById('dev-count');
+        const apiSpendSlider = document.getElementById('api-spend');
+        const devValue = document.getElementById('dev-value');
+        const spendValue = document.getElementById('spend-value');
+        const currentCostEl = document.getElementById('current-cost');
+        const restoCostEl = document.getElementById('resto-cost');
+        const annualSavingsEl = document.getElementById('annual-savings');
+
+        function updateCalculator() {
+            const devs = parseInt(devCountSlider.value);
+            const spendPerDev = parseInt(apiSpendSlider.value);
+            
+            devValue.textContent = devs;
+            spendValue.textContent = spendPerDev;
+            
+            const currentMonthly = devs * spendPerDev;
+            const restoMonthly = currentMonthly * 0.25; // 75% savings
+            const annualSavings = (currentMonthly - restoMonthly) * 12;
+            
+            currentCostEl.textContent = '$' + currentMonthly.toLocaleString();
+            restoCostEl.textContent = '$' + Math.round(restoMonthly).toLocaleString();
+            annualSavingsEl.textContent = '$' + Math.round(annualSavings).toLocaleString();
+        }
+
+        if (devCountSlider && apiSpendSlider) {
+            devCountSlider.addEventListener('input', updateCalculator);
+            apiSpendSlider.addEventListener('input', updateCalculator);
+            updateCalculator(); // Initialize
+        }
+
         // Navigation scroll effect
         const nav = document.querySelector('nav');
         let lastScrollY = window.scrollY;
