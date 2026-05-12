@@ -389,6 +389,189 @@
             opacity: 0;
         }
 
+        /* Built with Resto Showcase Section */
+        .built-with-resto-section {
+            padding: var(--space-8) var(--space-6) var(--space-16);
+            position: relative;
+        }
+
+        .resto-showcase-card {
+            position: relative;
+            background: linear-gradient(135deg, 
+                rgba(99, 102, 241, 0.03) 0%, 
+                rgba(129, 140, 248, 0.02) 50%,
+                rgba(167, 139, 250, 0.03) 100%);
+            border: 1px solid var(--border-accent);
+            border-radius: var(--radius-xl);
+            padding: var(--space-10);
+            overflow: hidden;
+            backdrop-filter: blur(20px);
+            -webkit-backdrop-filter: blur(20px);
+            box-shadow: var(--shadow-glossy), var(--shadow-glow);
+            transition: all var(--transition-normal);
+            animation: fadeInUp 800ms var(--ease-out) forwards;
+        }
+
+        .resto-showcase-card:hover {
+            transform: translateY(-4px);
+            box-shadow: var(--shadow-2xl), 0 0 60px rgba(99, 102, 241, 0.2);
+            border-color: var(--primary-400);
+        }
+
+        .showcase-glow {
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle at center, 
+                rgba(99, 102, 241, 0.08) 0%, 
+                transparent 60%);
+            pointer-events: none;
+            z-index: 0;
+            animation: pulseGlow 8s ease-in-out infinite;
+        }
+
+        @keyframes pulseGlow {
+            0%, 100% { opacity: 0.5; transform: scale(1); }
+            50% { opacity: 0.8; transform: scale(1.1); }
+        }
+
+        .showcase-content {
+            position: relative;
+            z-index: 1;
+            text-align: center;
+        }
+
+        .showcase-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: var(--space-2);
+            padding: var(--space-2) var(--space-4);
+            background: linear-gradient(135deg, 
+                rgba(99, 102, 241, 0.1) 0%, 
+                rgba(129, 140, 248, 0.08) 100%);
+            border: 1px solid rgba(99, 102, 241, 0.3);
+            border-radius: var(--radius-full);
+            font-size: 0.875rem;
+            font-weight: 600;
+            color: var(--primary-700);
+            margin-bottom: var(--space-6);
+            animation: shimmer 3s ease-in-out infinite;
+        }
+
+        @keyframes shimmer {
+            0%, 100% { box-shadow: 0 0 20px rgba(99, 102, 241, 0.2); }
+            50% { box-shadow: 0 0 30px rgba(99, 102, 241, 0.4); }
+        }
+
+        .showcase-title {
+            font-size: clamp(1.75rem, 3.5vw, 2.5rem);
+            font-weight: 700;
+            color: var(--text-primary);
+            margin-bottom: var(--space-4);
+            letter-spacing: -0.02em;
+            line-height: 1.2;
+        }
+
+        .showcase-description {
+            font-size: 1.125rem;
+            color: var(--text-secondary);
+            line-height: 1.7;
+            max-width: 700px;
+            margin: 0 auto var(--space-8);
+        }
+
+        .showcase-metrics {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: var(--space-8);
+            margin-bottom: var(--space-8);
+            flex-wrap: wrap;
+        }
+
+        .metric-item {
+            text-align: center;
+        }
+
+        .metric-value {
+            font-size: 2.5rem;
+            font-weight: 700;
+            background: var(--gradient-primary);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            line-height: 1;
+            margin-bottom: var(--space-2);
+        }
+
+        .metric-label {
+            font-size: 0.875rem;
+            color: var(--text-tertiary);
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        .metric-divider {
+            width: 1px;
+            height: 48px;
+            background: linear-gradient(to bottom, 
+                transparent, 
+                var(--border-default), 
+                transparent);
+        }
+
+        .showcase-features {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: var(--space-3);
+            margin-bottom: var(--space-8);
+            max-width: 800px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .feature-chip {
+            display: inline-flex;
+            align-items: center;
+            gap: var(--space-2);
+            padding: var(--space-2) var(--space-4);
+            background: var(--bg-elevated);
+            border: 1px solid var(--border-subtle);
+            border-radius: var(--radius-full);
+            font-size: 0.875rem;
+            font-weight: 500;
+            color: var(--text-secondary);
+            transition: all var(--transition-fast);
+            backdrop-filter: blur(8px);
+            -webkit-backdrop-filter: blur(8px);
+        }
+
+        .feature-chip:hover {
+            border-color: var(--primary-400);
+            background: var(--primary-50);
+            color: var(--primary-700);
+            transform: translateY(-2px);
+            box-shadow: var(--shadow-sm);
+        }
+
+        .feature-chip i {
+            font-size: 1rem;
+            color: var(--primary-600);
+        }
+
+        .showcase-cta {
+            margin-top: var(--space-6);
+        }
+
+        .btn-lg {
+            padding: var(--space-4) var(--space-8);
+            font-size: 1.125rem;
+        }
+
         .cta-buttons {
             display: flex;
             gap: var(--space-4);
@@ -1262,6 +1445,36 @@
 
             .hero {
                 padding: calc(var(--space-12) + 64px) var(--space-4) var(--space-8);
+            }
+
+            /* Built with Resto Showcase - Mobile */
+            .built-with-resto-section {
+                padding: var(--space-6) var(--space-4) var(--space-12);
+            }
+
+            .resto-showcase-card {
+                padding: var(--space-6);
+            }
+
+            .showcase-metrics {
+                gap: var(--space-4);
+            }
+
+            .metric-value {
+                font-size: 2rem;
+            }
+
+            .metric-divider {
+                display: none;
+            }
+
+            .showcase-features {
+                gap: var(--space-2);
+            }
+
+            .feature-chip {
+                font-size: 0.75rem;
+                padding: var(--space-2) var(--space-3);
             }
 
             .features {
@@ -3030,6 +3243,79 @@
                 <span class="skill-tag">AWS</span>
                 <span class="skill-tag">Docker</span>
                 <span class="skill-tag">+14 Skills</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Built with Resto Showcase -->
+    <section class="built-with-resto-section">
+        <div class="container">
+            <div class="resto-showcase-card">
+                <div class="showcase-glow"></div>
+                <div class="showcase-content">
+                    <div class="showcase-badge">
+                        <i class="bi bi-lightning-charge-fill"></i>
+                        Built in Minutes
+                    </div>
+                    <h3 class="showcase-title">This Website Was Created with Resto MCP Server</h3>
+                    <p class="showcase-description">
+                        The entire UI/UX of this documentation site—premium glassmorphism, 
+                        sophisticated animations, responsive design, and pixel-perfect styling—was 
+                        crafted by Resto MCP Server in just minutes. Experience the power of 
+                        champion-level AI coding.
+                    </p>
+                    
+                    <div class="showcase-metrics">
+                        <div class="metric-item">
+                            <div class="metric-value">&lt;10 min</div>
+                            <div class="metric-label">Development Time</div>
+                        </div>
+                        <div class="metric-divider"></div>
+                        <div class="metric-item">
+                            <div class="metric-value">4,399</div>
+                            <div class="metric-label">Lines of Code</div>
+                        </div>
+                        <div class="metric-divider"></div>
+                        <div class="metric-item">
+                            <div class="metric-value">100%</div>
+                            <div class="metric-label">AI-Generated</div>
+                        </div>
+                    </div>
+
+                    <div class="showcase-features">
+                        <div class="feature-chip">
+                            <i class="bi bi-palette-fill"></i>
+                            Premium Glassmorphism
+                        </div>
+                        <div class="feature-chip">
+                            <i class="bi bi-phone"></i>
+                            Fully Responsive
+                        </div>
+                        <div class="feature-chip">
+                            <i class="bi bi-moon-stars-fill"></i>
+                            Dark/Light Themes
+                        </div>
+                        <div class="feature-chip">
+                            <i class="bi bi-graph-up-arrow"></i>
+                            Smooth Animations
+                        </div>
+                        <div class="feature-chip">
+                            <i class="bi bi-shield-check"></i>
+                            WCAG Accessible
+                        </div>
+                        <div class="feature-chip">
+                            <i class="bi bi-lightning-fill"></i>
+                            Optimized Performance
+                        </div>
+                    </div>
+
+                    <div class="showcase-cta">
+                        <a href="#install" class="btn btn-primary btn-lg">
+                            <i class="bi bi-rocket-takeoff-fill"></i>
+                            Build Your Own with Resto
+                        </a>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
