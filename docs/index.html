@@ -936,7 +936,7 @@
 
             /* Timeline Mobile */
             .timeline::before {
-                left: 20px;
+                left: 24px;
             }
 
             .timeline-item,
@@ -944,11 +944,30 @@
             .timeline-item:nth-child(even) {
                 flex-direction: row;
                 padding-right: 0;
-                padding-left: var(--space-12);
+                padding-left: var(--space-16);
+                margin-bottom: var(--space-8);
             }
 
             .timeline-dot {
-                left: 20px;
+                left: 24px;
+                width: 18px;
+                height: 18px;
+            }
+
+            .timeline-content {
+                padding: var(--space-5);
+            }
+
+            .timeline-step {
+                font-size: 0.6875rem;
+            }
+
+            .timeline-title {
+                font-size: 1.125rem;
+            }
+
+            .timeline-desc {
+                font-size: 0.875rem;
             }
 
             /* Comparison Grid Mobile */
@@ -1040,6 +1059,23 @@
 
             .comparison-card:last-child {
                 grid-column: span 2;
+            }
+
+            /* Timeline Tablet */
+            .timeline::before {
+                left: 32px;
+            }
+
+            .timeline-item,
+            .timeline-item:nth-child(odd),
+            .timeline-item:nth-child(even) {
+                flex-direction: row;
+                padding-right: 0;
+                padding-left: calc(var(--space-12) + 32px);
+            }
+
+            .timeline-dot {
+                left: 32px;
             }
         }
 
@@ -1841,10 +1877,12 @@
             color: var(--text-primary);
             letter-spacing: -0.01em;
             white-space: nowrap;
+            min-width: 120px;
         }
 
         .benchmarks-table th:not(:first-child) {
             text-align: center;
+            min-width: 80px;
         }
 
         .benchmarks-table tbody tr {
@@ -1886,12 +1924,14 @@
             font-size: 0.9375rem;
             color: var(--text-secondary);
             vertical-align: middle;
+            white-space: nowrap;
         }
 
         .benchmarks-table td:not(:first-child) {
             text-align: center;
             font-weight: 600;
             font-family: var(--font-mono);
+            min-width: 80px;
         }
 
         .benchmarks-table td.highlight {
@@ -2389,6 +2429,17 @@ Responsive mobile-first.</code></pre>
         <div class="benchmark-note">
             <i class="bi bi-bar-chart-fill note-icon"></i>
             <p>Results vary by content complexity. Average savings: <strong>65-75%</strong></p>
+        </div>
+
+        <!-- Product Hunt Badge -->
+        <div style="text-align: center; margin-top: var(--space-8);">
+            <a href="https://www.producthunt.com/products/resto?embed=true&amp;utm_source=badge-featured&amp;utm_medium=badge&amp;utm_campaign=badge-resto" target="_blank" rel="noopener noreferrer">
+                <img alt="Resto - Resto MCP — Make your AI coder think like a senior developer | Product Hunt" 
+                     width="250" 
+                     height="54" 
+                     src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=1144880&amp;theme=light&amp;t=1778571653283"
+                     style="max-width: 100%; height: auto;">
+            </a>
         </div>
     </section>
 
